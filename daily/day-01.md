@@ -1,7 +1,7 @@
 # Day 1 — 2026-06-24
 
 ## Standing
-`Day 1 - $100.00 - flat 0.0% from baseline.`
+`Day 1 - $100.00 - up/down 0.0% from baseline.` (1 open position: PANW $15 @ 287.82, just filled)
 
 ## Run context
 - Fired at 02:07 UTC (~10:07 PM ET, 2026-06-23). **OUTSIDE U.S. regular trading hours.** Cron fired off-hours.
@@ -109,11 +109,13 @@ Screened AMD, ANET, CRWD, PANW, PLTR, NET, MSFT, AVGO (+ QQQ context).
 - **Confidence:** 6.5/10.
 - **Final decision:** BUY $15 PANW.
 
-### EXECUTION RESULT — ⛔ BLOCKED BY BROKER (no trade executed)
-- Reviewed order (review_equity_order): clean, only standard EQUITY_SUITABILITY boilerplate, $15 affordable, spread ~0.12%.
-- Placed market buy $15 PANW (ref_id c8c0b716…). **Robinhood rejected with API 400:** *"We're required to have you answer some questions about your investing goals before we can allow you to continue using Robinhood."* — the account's **investor profile must be completed before the second trade** (regulatory requirement; the 6/23 NVDA round trip was trade #1).
-- **Result: NO POSITION TAKEN. Account remains flat $100.00.** This is an account-setup blocker, not a strategy decision — and it will block EVERY future trade until resolved.
-- **Action required by user:** complete the investor profile at https://applink.robinhood.com/investment_profile?account_number=996456778&context=second_trade
+### EXECUTION — blocked twice, then FILLED on retry ✅
+- **14:37 UTC attempt #1:** Reviewed clean (only EQUITY_SUITABILITY boilerplate). Placed market buy $15 PANW → **Robinhood rejected, API 400:** *"We're required to have you answer some questions about your investing goals…"* — investor profile required before the account's 2nd trade (6/23 NVDA round trip was trade #1).
+- **14:40 UTC attempt #2:** User reported nothing blocked; retried → **same API 400.** Held off further retries, flagged the account-specific profile link to the user.
+- **14:44 UTC attempt #3:** User completed the investor profile on ••6778 → retried (fresh quote 287.79, ref_id 0896c9b8…) → **FILLED.**
+  - **BUY 0.052115 sh PANW @ avg $287.8199, $15.00, $0 fees.** Order 6a3bed3b, state=filled.
+  - Stop 282 (downside ≈ $0.30 / -2.0% on the position), target ~302, **R/R ≈ 2.4:1**, 15% size. 1 of 2 daily buys used.
+- **Result: 1 open position (PANW). Account ~$100, cash ~$85.** The earlier broker block (investor profile) is resolved.
 
 ### Benchmark vs buy-and-hold QQQ
 - QQQ 713.65 baseline → 715.82 = **+0.30%**. Strategy flat **0.0%**. QQQ ahead by 0.30% — but this run we WANTED to trade and were blocked by the broker, not by choice.

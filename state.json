@@ -4,15 +4,18 @@
   "baseline_value": 100.00,
   "current_account_value": 100.00,
   "cumulative_return_pct": 0.0,
-  "open_position_count": 0,
+  "open_position_count": 1,
   "qqq_baseline": 713.65,
   "qqq_baseline_date": "2026-06-23",
-  "buying_power_settled": 100.00,
-  "BLOCKER": "ACCOUNT CANNOT TRADE: Robinhood requires the investor profile to be completed before the 2nd trade on account 996456778. place_equity_order returns API 400 until resolved. Fix: https://applink.robinhood.com/investment_profile?account_number=996456778&context=second_trade . Every run will be blocked from executing until the user completes this.",
-  "last_10_events": [
-    "2026-06-24 02:07 UTC - Day 1 Run1. Flat. Account $100, BP $90 (~$10 unsettled). Market CLOSED (off-hours cron). NO TRADE.",
-    "2026-06-24 13:36 UTC - Day 1 Run2 (market open). Flat, BP $100 settled. Regime: SPY +0.43%, QQQ +0.56%, VIX 18.91. RS-pass AMD/ANET/CRWD/MU. NO TRADE - MU -13% blowoff+earns tonight; AMD/ANET semi read-through; CRWD lagging+marginal RS. Conf<6.",
-    "2026-06-24 14:37 UTC - Day 1 Run3. Regime mixed (SPY +0.42%, QQQ +0.30%, SMH -0.40% semis red, VIX 18.73). Selected PANW (RS 1.135/1.636, cyber=low MU correlation, pullback to 284 shelf, stop 282, tgt 302, R/R 2.27, conf 6.5) - cleared ALL gates. ATTEMPTED BUY $15 -> BROKER BLOCKED (API 400: investor profile required before 2nd trade). NO position. Flat $100. ACTION NEEDED: user must complete investor profile."
+  "buying_power_settled": 85.00,
+  "open_positions": [
+    {"ticker": "PANW", "qty": 0.052115, "entry": 287.8199, "cost": 15.00, "stop": 282.00, "target": 302.00, "opened": "2026-06-24T14:44Z", "order_id": "6a3bed3b-4089-47ac-997f-c6f8d353c35f"}
   ],
-  "notes": "CRITICAL: trading is BLOCKED at the broker until the investor profile is completed (see BLOCKER field). PANW is the lead setup if/when trading is unblocked (strong RS 1.135/1.636, cyber, pullback-to-support, no earnings until 8/17). Watch MU earnings tonight (6/24 AC) for semis read-through tomorrow. QQQ baseline 713.65; QQQ +0.30% vs strategy flat 0.0%."
+  "last_10_events": [
+    "2026-06-24 02:07 UTC - Day 1 Run1. Flat. BP $90 (~$10 unsettled). Market CLOSED (off-hours). NO TRADE.",
+    "2026-06-24 13:36 UTC - Day 1 Run2. Flat, BP $100 settled. RS-pass AMD/ANET/CRWD/MU. NO TRADE (MU blowoff+earns tonight, semi read-through, CRWD marginal). Conf<6.",
+    "2026-06-24 14:37 UTC - Day 1 Run3a. Selected PANW (RS 1.135/1.636, cyber, pullback to 284 shelf). Attempted BUY $15 -> broker blocked (API400 investor profile required before 2nd trade). No position.",
+    "2026-06-24 14:44 UTC - Day 1 Run3b. User completed investor profile; RETRY FILLED: BUY 0.052115 sh PANW @ $287.82 ($15, $0 fees). Stop 282, target 302, R/R 2.4, 15% size. 1 of 2 daily buys used. Now 1 open position. Cash ~$85."
+  ],
+  "notes": "OPEN: PANW 0.052115 sh @ 287.82, stop 282 (YOU are the stop - sell if below 282 at a check, mind T+1 unsettled buy proceeds / avoid same-day round trip), target 302. Broker investor-profile block is RESOLVED. MU reports tonight (6/24 AC, ~17% implied) - watch semis/AI read-through to PANW tomorrow (low correlation). QQQ baseline 713.65; QQQ +0.30% vs strategy ~0.0%."
 }
