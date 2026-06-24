@@ -8,9 +8,11 @@
   "qqq_baseline": 713.65,
   "qqq_baseline_date": "2026-06-23",
   "buying_power_settled": 100.00,
+  "BLOCKER": "ACCOUNT CANNOT TRADE: Robinhood requires the investor profile to be completed before the 2nd trade on account 996456778. place_equity_order returns API 400 until resolved. Fix: https://applink.robinhood.com/investment_profile?account_number=996456778&context=second_trade . Every run will be blocked from executing until the user completes this.",
   "last_10_events": [
     "2026-06-24 02:07 UTC - Day 1 Run1. Flat. Account $100, BP $90 (~$10 unsettled). Market CLOSED (off-hours cron). NO TRADE.",
-    "2026-06-24 13:36 UTC - Day 1 Run2 (market open). Flat, BP now $100 fully SETTLED (NVDA proceeds settled). Regime: SPY +0.43%, QQQ +0.56%, VIX 18.91; weak bounce after 6/23 macro/rate-hike washout. RS-pass: AMD(1.05/2.21), ANET(1.055/1.17), CRWD(1.026/1.58), MU(1.22/2.53). NO TRADE - MU -13% blowoff+earnings tonight; AMD/ANET semis exposed to MU read-through+rate fears; CRWD lagging intraday & marginal RS_20. Conf<6/10. 0/2 daily buys used."
+    "2026-06-24 13:36 UTC - Day 1 Run2 (market open). Flat, BP $100 settled. Regime: SPY +0.43%, QQQ +0.56%, VIX 18.91. RS-pass AMD/ANET/CRWD/MU. NO TRADE - MU -13% blowoff+earns tonight; AMD/ANET semi read-through; CRWD lagging+marginal RS. Conf<6.",
+    "2026-06-24 14:37 UTC - Day 1 Run3. Regime mixed (SPY +0.42%, QQQ +0.30%, SMH -0.40% semis red, VIX 18.73). Selected PANW (RS 1.135/1.636, cyber=low MU correlation, pullback to 284 shelf, stop 282, tgt 302, R/R 2.27, conf 6.5) - cleared ALL gates. ATTEMPTED BUY $15 -> BROKER BLOCKED (API 400: investor profile required before 2nd trade). NO position. Flat $100. ACTION NEEDED: user must complete investor profile."
   ],
-  "notes": "Reassess post-MU-earnings (reports after close 2026-06-24). Watch CRWD (cyber, no earns until 8/26) for a reclaim, and AMD/ANET holding above 6/23 lows after the catalyst clears. Baseline QQQ 713.65; QQQ at 717.66 (+0.56%) vs strategy flat 0.0% - QQQ ahead by choice (holding cash into binary catalyst)."
+  "notes": "CRITICAL: trading is BLOCKED at the broker until the investor profile is completed (see BLOCKER field). PANW is the lead setup if/when trading is unblocked (strong RS 1.135/1.636, cyber, pullback-to-support, no earnings until 8/17). Watch MU earnings tonight (6/24 AC) for semis read-through tomorrow. QQQ baseline 713.65; QQQ +0.30% vs strategy flat 0.0%."
 }

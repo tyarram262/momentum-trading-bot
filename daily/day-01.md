@@ -70,3 +70,50 @@ Despite four names clearing the RS gates, no entry clears ALL criteria at accept
 
 ### Benchmark vs buy-and-hold QQQ
 - QQQ baseline 713.65 (6/23 close) → now 717.66 = **+0.56%**. Strategy flat at **0.0%**. Buy-and-hold QQQ is ahead by 0.56% over this ~1-day window (we hold cash by choice into an unresolved macro/binary-catalyst setup).
+
+---
+
+## Run 3 — 2026-06-24 14:37 UTC (regular hours, ~10:37 AM ET)
+
+### Live account reconciliation (broker wins)
+- Account 996456778: total value **$100.00**, all cash. Buying power **$100.00** (fully settled). Flat, no positions, no orders today. 0 of 2 daily buys used. State matched broker — no drift.
+
+### Regime check (LIVE)
+- SPY 736.68 (+0.42%), QQQ 715.82 (+0.30%), XLK 184.30 (+0.06%), **SMH 619.54 (-0.40%)** — semis RED, lagging; broad tape modestly green, semis soft.
+- **VIX 18.73** (easing from 18.91). Mixed/neutral tape.
+- Macro: 10yr ~4.5%, Fed rate-hike risk pulled forward to Oct (hawkish). **MU reports after close tonight** (~17% implied move) — semis binary still pending.
+
+### Position review
+- Flat. Exit rules N/A.
+
+### Scan & RS (computed from real bars, 65 daily bars 3/20→6/23; SPY ref close 733.58)
+Screened AMD, ANET, CRWD, PANW, PLTR, NET, MSFT, AVGO (+ QQQ context).
+- **PASS** RS gates (RS_20>1.02, RS_60>=0.98): **PANW** (1.135 / 1.636), **AMD** (1.130 / 2.243), **ANET** (1.070 / 1.164), **CRWD** (1.043 / 1.525).
+- FAIL: PLTR (0.867/0.695), MSFT (0.908/0.899), NET (1.058/**0.941** RS_60 miss), AVGO (0.933/1.080 RS_20 miss). QQQ context 1.011/1.094.
+
+### Candidate selection — chose PANW
+- **AMD** — strongest RS but semiconductor, max exposure to MU's read-through tonight + SMH red today. Skip into the binary.
+- **ANET** — datacenter networking, MU-correlated; entry was a bounce off the 6/23 -7% washout, chasing near HOD. Pass.
+- **CRWD** — choppy range 660–712, weakest RS_20 (1.043), R/R to range-high marginal (~1.1–1.8). Pass.
+- **PANW (selected)** — strongest RS of the passers, **cyber software → low correlation to MU's memory/semis read-through tonight.** Clean shallow pullback (-0.96% today to intraday low 284.28) **sitting on the 6/22 low support shelf (284.26)** in a clean uptrend (263→291 over 2 wks, ~5% below 52w high 302.95). Buying the dip, not chasing.
+
+### PRE-BUY RESEARCH REPORT — PANW
+- **Setup:** Shallow pullback to the 284 support shelf within an established uptrend; higher-low structure intact. Entry ~288–289.
+- **Market regime:** Mixed/neutral (SPY +0.42%, QQQ +0.30%, semis red, VIX 18.7). Not defensive-trigger conditions; normal-size OK.
+- **Relative strength:** RS_20 **1.135**, RS_60 **1.636** (both well clear, strong vs SPY and QQQ).
+- **Catalyst/news:** Reported strong beat 6/2 (EPS $0.85 vs $0.72, +18%); recent analyst upgrades (PTs to $300, Jefferies/Wedbush); NATO cyber-defense partnership. **Next earnings 08/17/2026 — no near-term binary.**
+- **Fundamentals:** $235B cap, packaged software / network security leader; YTD +55.5%. Rich (PE ~239) but a momentum leader.
+- **Entry:** ~289.32 (market, fractional $15). **Stop/invalidation:** below 282 (under 6/23 low 282.52 / the 284 shelf) ≈ -2.1%. **Target:** ~302 (52w-high retest), ≈ +4.8%. **Reward/risk ≈ 2.27:1.**
+- **Position size:** $15 = 15% of account (normal conviction; trimmed from max given mixed macro + MU binary tonight). **Dollar downside to stop ≈ $0.32** on the $15 position.
+- **Risks:** Mixed macro/rate-hike overhang; a broad semis-driven risk-off after MU tonight could pressure all tech incl. cyber; entering on a red intraday day (shelf could break).
+- **Confidence:** 6.5/10.
+- **Final decision:** BUY $15 PANW.
+
+### EXECUTION RESULT — ⛔ BLOCKED BY BROKER (no trade executed)
+- Reviewed order (review_equity_order): clean, only standard EQUITY_SUITABILITY boilerplate, $15 affordable, spread ~0.12%.
+- Placed market buy $15 PANW (ref_id c8c0b716…). **Robinhood rejected with API 400:** *"We're required to have you answer some questions about your investing goals before we can allow you to continue using Robinhood."* — the account's **investor profile must be completed before the second trade** (regulatory requirement; the 6/23 NVDA round trip was trade #1).
+- **Result: NO POSITION TAKEN. Account remains flat $100.00.** This is an account-setup blocker, not a strategy decision — and it will block EVERY future trade until resolved.
+- **Action required by user:** complete the investor profile at https://applink.robinhood.com/investment_profile?account_number=996456778&context=second_trade
+
+### Benchmark vs buy-and-hold QQQ
+- QQQ 713.65 baseline → 715.82 = **+0.30%**. Strategy flat **0.0%**. QQQ ahead by 0.30% — but this run we WANTED to trade and were blocked by the broker, not by choice.
