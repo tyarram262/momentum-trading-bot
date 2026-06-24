@@ -7,9 +7,10 @@
   "open_position_count": 0,
   "qqq_baseline": 713.65,
   "qqq_baseline_date": "2026-06-23",
-  "buying_power_settled": 90.00,
+  "buying_power_settled": 100.00,
   "last_10_events": [
-    "2026-06-24 02:07 UTC - Day 1 first persisted run. Flat. Account $100, BP $90 (~$10 unsettled from prior NVDA sale). Market CLOSED (off-hours cron). NO TRADE."
+    "2026-06-24 02:07 UTC - Day 1 Run1. Flat. Account $100, BP $90 (~$10 unsettled). Market CLOSED (off-hours cron). NO TRADE.",
+    "2026-06-24 13:36 UTC - Day 1 Run2 (market open). Flat, BP now $100 fully SETTLED (NVDA proceeds settled). Regime: SPY +0.43%, QQQ +0.56%, VIX 18.91; weak bounce after 6/23 macro/rate-hike washout. RS-pass: AMD(1.05/2.21), ANET(1.055/1.17), CRWD(1.026/1.58), MU(1.22/2.53). NO TRADE - MU -13% blowoff+earnings tonight; AMD/ANET semis exposed to MU read-through+rate fears; CRWD lagging intraday & marginal RS_20. Conf<6/10. 0/2 daily buys used."
   ],
-  "notes": "Prior agentic activity on 2026-06-23: NVDA $10 round trip (buy @202.24, sell @202.32) by an earlier run; state branch was not persisted before now so this is treated as Day 1 baseline. Account currently flat."
+  "notes": "Reassess post-MU-earnings (reports after close 2026-06-24). Watch CRWD (cyber, no earns until 8/26) for a reclaim, and AMD/ANET holding above 6/23 lows after the catalyst clears. Baseline QQQ 713.65; QQQ at 717.66 (+0.56%) vs strategy flat 0.0% - QQQ ahead by choice (holding cash into binary catalyst)."
 }

@@ -1,2 +1,3 @@
 day,date,timestamp,account_value,ticker,action,qty,price,reward_risk,position_pct,confidence,cumulative_return_pct,notes
 1,2026-06-24,2026-06-24T02:07:00Z,100.00,,NO_TRADE,,,,,,,0.0,"Day 1 baseline. Flat. Market off-hours (cron fired ~10PM ET); fractional orders cannot execute. No setup. Default NO TRADE."
+1,2026-06-24,2026-06-24T13:36:00Z,100.00,,NO_TRADE,,,,,,0.0,"Run2 regular hours. Flat, BP $100 settled. RS-pass: AMD/ANET/CRWD/MU. NO TRADE: MU -13% blowoff+earns tonight; AMD/ANET semis w/ MU read-through+rate-hike risk; CRWD lagging today, RS_20 marginal 1.026, wide spread. Conf<6. QQQ bench +0.56%."
