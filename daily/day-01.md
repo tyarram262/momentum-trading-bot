@@ -240,3 +240,29 @@ Not a reflex — scanned 12 names, computed RS on 7, news-checked the 2 RS-passe
 **Benchmark:** strategy **−0.06%** vs QQQ buy-and-hold **−0.49%** since the 713.65 baseline. On this down-tech day the cash cushion is outperforming buy-and-hold QQQ. Too early (Day 1) to draw conclusions, but the defensive posture is helping today.
 
 **Standing:** Day 1 - $99.94 - down 0.06% from baseline.
+
+---
+
+## Run 8 — 2026-06-24 ~19:34 UTC (~15:34 ET, near close) — HOLD PANW, NO TRADE (defensive)
+
+**Account:** total $99.92 · cash $85.00 · settled BP $85.00 · 1 position (PANW $14.93). Reconciled vs broker — live data matches state (PANW 0.052115 sh @ 287.83 avg). 1 of 3 daily buys used.
+
+**Regime — TECH WEAK / VOL RISING (defensive):**
+- SPY $731.62 **−0.27%**, QQQ $707.37 **−0.88%**, XLK $181.88 **−1.25%**, SMH $611.84 **−1.64%** — broad tech red, semis leading the decline (same pattern as Run 7, deeper).
+- VIX **20.01**, up from 19.26 (Run 7) and ~18.4 earlier — vol has risen through 20 across the day.
+- Read: leadership deteriorating, semis red, vol climbing into the close. "Tape clearly weak / volatile" condition → **no new risk** per regime rules. Justified defensive stance, not a reflex.
+
+**Position review — PANW (HOLD):**
+- Last $286.345 (bid 286.25 / ask 286.46, ~0.07% spread). Entry $287.82 → **−0.51%** vs entry; −1.57% on the day, in line with the red tech tape.
+- Above the **282** invalidation (6/23 low 282.52 / 284 shelf). YOU are the stop — still above it, so hold. Dollar downside to stop ≈ $0.23 from here.
+- RS recomputed from live bars: **RS_20 1.144** (286.345/256.75 ÷ 731.615/750.59) — PASS (>1.02). **RS_60 1.688** (286.345/147.02 ÷ 731.615/634.09) — PASS. Still a clear leader.
+- No near-term binary (earnings 8/17). Thesis intact. **HOLD.**
+
+**Scan / new-buy decision — NO TRADE:**
+- Candidate universe (GOOGL, AVGO, NVDA, META, ANET, CRWD, GEV, HOOD, PLTR, APP) swept across Runs 4–7 with nothing clean: laggards fail RS_20, ANET a falling knife (insider sale + peak-growth warnings), real leaders flat-to-down.
+- With tech broadly red, semis −1.64%, and VIX climbing through 20 into the close, the bar for a *new* tech-correlated long is high and unmet. Adding a second correlated long here would worsen portfolio R/R. **NO TRADE (defensive).**
+- 1 of 3 daily buys used; 3 position slots free; $85 settled cash kept dry.
+
+**Benchmark:** strategy **−0.08%** vs QQQ buy-and-hold **−0.88%** since the 713.65 baseline. On this down-tech day the cash cushion is outperforming buy-and-hold QQQ. Too early (Day 1) to draw conclusions, but the defensive posture is helping.
+
+**Standing:** Day 1 - $99.92 - down 0.08% from baseline.
