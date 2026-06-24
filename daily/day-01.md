@@ -188,3 +188,28 @@ Not a reflex — scanned 12 names, computed RS on 7, news-checked the 2 RS-passe
 - Strategy: +0.02% from $100 baseline. QQQ since 6/23 close (713.65 → 716.40): **+0.39%.** Strategy lagging buy-and-hold QQQ by ~0.37 pts — expected at ~85% cash with PANW flat. Day 1, honest read: cash drag is the cost of waiting for clean setups.
 
 **Day 1 — $100.02 — up 0.02% from baseline.**
+
+---
+
+## Run 6 — 2026-06-24 16:34 UTC (~12:34 ET) — HOLD, NO new trade
+
+**Live reconciliation:** Account value **$100.02**, cash $85, settled BP $85 (fully spendable, no unsettled proceeds). PANW 0.052115 sh @ avg 287.83. Matches state.json — no drift. 1 buy filled today (PANW); 1 of 2 daily new-position budget remaining.
+
+**Regime:** SPY $737.62 +0.55% · QQQ $715.27 +0.23% · XLK $184.34 +0.08% · SMH $621.04 −0.16% · VIX **18.42**. Mild-green tape but mixed leadership — gains concentrated in oversold laggard bounces (AVGO +1.4%, GEV +3%), while semis are flat/red and several momentum names (HOOD −4%, PLTR −2.6%, APP −1.4%) are breaking down. Neutral, not clean trending leadership. Not weak enough to force defensive; not strong enough to lean in.
+
+**Position review — PANW (HOLD):**
+- Last $288.17, entry $287.82 → +$0.0003/sh, ~+$0.02 on the position. Above 282 invalidation.
+- RS recomputed from live bars: **RS_20 = (288.165/256.75)/(737.62/750.59) = 1.142**; **RS_60 = (288.165/147.02)/(737.62/634.09) = 1.685**. Still a clear leader.
+- Down −0.95% today on a green tape — noise, low semis correlation. Structure intact, spread tight (~0.10%, bid 288.04/ask 288.34). No exit trigger. **HOLD.** Next earnings 8/17 (no near-term binary).
+
+**Scan / candidates (all rejected):**
+- **AVGO** $385.39 (+1.4%): RS_20 = (385.39/422.01)/0.9827 = **0.93** — FAIL. Crashed 481→372 early June; today is a laggard bounce, not leadership. Reject.
+- **GEV** $1065.52 (+3.0%): RS_20 = (1065.52/1070.47)/0.9827 = **1.013** — marginal FAIL (gate >1.02). RS_60 1.074 passes, but price is wildly extended/volatile ($1065 name, −8% on 6/23, ran 982→1127 in a week). No clean pullback entry; R/R poor at these levels. Reject.
+- **ANET** $163.64 (+0.9%): RS_20 **1.054** ✅, RS_60 **1.165** ✅ — passes gates, BUT 6/23 was −7.1% (162.20 close vs 174.56) driven by insider selling ($43M, co-founder Bechtolsheim) + analyst peak-growth/competitive warnings. Today's +0.9% is a weak bounce, not a clean reclaim; no base; fundamental headwind. Falling-knife setup, conf<6. Reject.
+- **NVDA** +0.1% (flat/rangebound), **MSFT** −0.2%, **CRWD** −0.5%, **NET** +0.4% (RS_60 marginal prior), **HOOD** −4.0%, **PLTR** −2.6%, **APP** −1.4% — none offer a clean RS-leader-with-good-setup combination; the green names fail RS_20, the RS names are broken or already held.
+
+**Decision: NO new position.** Edge genuinely unclear — the one RS leader with a clean structure (PANW) is already held; the names rallying today are laggards failing RS_20; ANET passes RS but the setup is a post-insider-sale bounce, not an entry. Keep $85 dry, 1 daily buy + 2 slots still open.
+
+**Benchmark:** QQQ baseline 713.65 (6/23 close) → $715.27 = **+0.23%** buy-and-hold. Strategy account +0.02% from $100.00 baseline. Lagging QQQ by ~0.21pts — expected with 85% cash drag on Day 1. Honest read: too early to judge; the single position is barely seasoned.
+
+`Day 1 - $100.02 - up 0.02% from baseline.`
