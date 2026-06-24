@@ -119,3 +119,40 @@ Screened AMD, ANET, CRWD, PANW, PLTR, NET, MSFT, AVGO (+ QQQ context).
 
 ### Benchmark vs buy-and-hold QQQ
 - QQQ 713.65 baseline → 715.82 = **+0.30%**. Strategy flat **0.0%**. QQQ ahead by 0.30% — but this run we WANTED to trade and were blocked by the broker, not by choice.
+
+---
+
+## Run 4 — 2026-06-24 15:35 UTC (≈11:35 ET)
+
+**Standing: Day 1 — $99.98 — down 0.02% from baseline.**
+
+### Account reconciliation (live wins)
+- Account value $99.98 (cash $85.00 + PANW equity $14.98). Buying power $85.00 (settled — this is prior settled cash, not unsettled sale proceeds; spendable for a new buy). Live data matches state.json exactly. No drift.
+- Open positions: PANW 0.052115 sh @ $287.83 avg (broker), shares_available_for_sells = full. 1 fill today (the PANW buy) → **1 of 2 daily buys used.**
+
+### Regime check
+- **VIX 18.18** — moderate, not elevated.
+- SPY $738.995 **+0.74%** today, but **-1.5% over the last 20 sessions** (choppy/corrective).
+- QQQ +0.41%, XLK +0.25%, **SMH -0.35%** (semis soft). MSFT flat, NVDA +0.38%, META +0.57%.
+- Today's biggest movers are oversold *laggard* bounces (GOOGL +1.2%, AVGO +1.5%, ANET +1.5%) while genuine recent leaders are soft → a **mean-reverting tape**, not clean trending leadership. Read: neutral, take only high-quality setups.
+
+### Position review — PANW (HOLD)
+- Last $287.58 vs $287.82 entry → ~flat (-0.08%). Down -1.1% on the day vs a green tape (minor underperformance; possible MU semis read-through, but PANW correlation is low).
+- **RS recomputed from real bars:** RS_20 = (287.58/256.75)/(738.995/750.59) = **1.137** (>1.02 ✓); RS_60 = (287.58/147.02)/(738.995/634.09) = **1.678** (>0.98 ✓). Still a clear leader.
+- Above the $282 invalidation (6/23 low was 282.52). Thesis intact, no near-term earnings (8/17). **HOLD.** YOU are the stop — sell if it prints below 282 at a future check.
+
+### Scan & candidates (RS computed from real bars, vs SPY 05-26 close, SPY 20d-ago 750.59)
+| Ticker | Today | RS_20 | Verdict |
+|--------|-------|-------|---------|
+| GOOGL | +1.2% | 0.915 | ✗ fail — down ~10%/20d, bounce off 6/22 flush |
+| AVGO | +1.5% | 0.929 | ✗ fail — post-earnings crash 6/03, choppy/down |
+| NVDA | +0.4% | 0.949 | ✗ fail — laggard |
+| META | +0.6% | 0.938 | ✗ fail — laggard |
+| ANET | +1.5% | 1.059 | ✓ RS passes, but **-7% whipsaw 6/23**, no clean base, unclear invalidation, conf<6 |
+| ORCL | -3.1% | — | ✗ breaking down, skip |
+
+### Decision: HOLD PANW, **NO new position**
+Not a reflex pass — scanned 9 names, computed RS on 5, checked setups. The only RS-qualifying name (ANET) is in a volatile whipsaw with no clean entry/invalidation (confidence <6). Everything else fails the RS_20 gate. On a mean-reverting, semis-soft tape, the disciplined call is to hold the one clean leader (PANW) and wait. Capital free: $85 settled, room for 1 more buy today + 2 more slots — will re-scan next run.
+
+### Benchmark
+- Strategy: -0.02% from $100 baseline. QQQ since 6/23 close (713.65 → 716.56): **+0.41%.** Strategy lagging buy-and-hold QQQ by ~0.43 pts — expected, since we're ~85% cash and PANW is flat. Early; one position, one day in.

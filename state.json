@@ -2,8 +2,8 @@
   "day_number": 1,
   "date": "2026-06-24",
   "baseline_value": 100.00,
-  "current_account_value": 100.00,
-  "cumulative_return_pct": 0.0,
+  "current_account_value": 99.98,
+  "cumulative_return_pct": -0.02,
   "open_position_count": 1,
   "qqq_baseline": 713.65,
   "qqq_baseline_date": "2026-06-23",
@@ -12,10 +12,10 @@
     {"ticker": "PANW", "qty": 0.052115, "entry": 287.8199, "cost": 15.00, "stop": 282.00, "target": 302.00, "opened": "2026-06-24T14:44Z", "order_id": "6a3bed3b-4089-47ac-997f-c6f8d353c35f"}
   ],
   "last_10_events": [
-    "2026-06-24 02:07 UTC - Day 1 Run1. Flat. BP $90 (~$10 unsettled). Market CLOSED (off-hours). NO TRADE.",
     "2026-06-24 13:36 UTC - Day 1 Run2. Flat, BP $100 settled. RS-pass AMD/ANET/CRWD/MU. NO TRADE (MU blowoff+earns tonight, semi read-through, CRWD marginal). Conf<6.",
     "2026-06-24 14:37 UTC - Day 1 Run3a. Selected PANW (RS 1.135/1.636, cyber, pullback to 284 shelf). Attempted BUY $15 -> broker blocked (API400 investor profile required before 2nd trade). No position.",
-    "2026-06-24 14:44 UTC - Day 1 Run3b. User completed investor profile; RETRY FILLED: BUY 0.052115 sh PANW @ $287.82 ($15, $0 fees). Stop 282, target 302, R/R 2.4, 15% size. 1 of 2 daily buys used. Now 1 open position. Cash ~$85."
+    "2026-06-24 14:44 UTC - Day 1 Run3b. User completed investor profile; RETRY FILLED: BUY 0.052115 sh PANW @ $287.82 ($15, $0 fees). Stop 282, target 302, R/R 2.4, 15% size. 1 of 2 daily buys used. Now 1 open position. Cash ~$85.",
+    "2026-06-24 15:35 UTC - Day 1 Run4. HOLD PANW ($287.58, RS 1.137/1.678, above 282 invalidation, ~flat; -1.1% today on green tape, low MU corr). NO new buy: GOOGL/AVGO/NVDA/META fail RS_20 (laggard bounces, mean-revert day); ANET passes RS_20 1.059 but -7% whipsaw 6/23, no clean base, conf<6. VIX 18.18, choppy tape. AcctVal $99.98 (-0.02%). QQQ bench +0.41%."
   ],
-  "notes": "OPEN: PANW 0.052115 sh @ 287.82, stop 282 (YOU are the stop - sell if below 282 at a check, mind T+1 unsettled buy proceeds / avoid same-day round trip), target 302. Broker investor-profile block is RESOLVED. MU reports tonight (6/24 AC, ~17% implied) - watch semis/AI read-through to PANW tomorrow (low correlation). QQQ baseline 713.65; QQQ +0.30% vs strategy ~0.0%."
+  "notes": "OPEN: PANW 0.052115 sh @ 287.82, stop 282 (YOU are the stop - sell if below 282 at a check; mind T+1, avoid same-day round trip), target 302, R/R 2.4. PANW RS still strong (1.137/1.678). Tape is choppy/mean-reverting: SPY +0.74% today but -1.5% over 20 sessions; today's big movers (GOOGL/AVGO) are oversold laggard bounces that FAIL RS_20. MU reports tonight (6/24 AC, ~17% implied) - watch semis/AI read-through tomorrow (PANW low correlation). 1/2 daily buys used; room for 1 more new position + 2 more slots. QQQ baseline 713.65; QQQ +0.41% vs strategy -0.02%."
 }
