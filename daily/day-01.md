@@ -156,3 +156,35 @@ Not a reflex pass — scanned 9 names, computed RS on 5, checked setups. The onl
 
 ### Benchmark
 - Strategy: -0.02% from $100 baseline. QQQ since 6/23 close (713.65 → 716.56): **+0.41%.** Strategy lagging buy-and-hold QQQ by ~0.43 pts — expected, since we're ~85% cash and PANW is flat. Early; one position, one day in.
+
+---
+
+## Run 5 — 2026-06-24 16:05 UTC (regular hours)
+
+**Account:** $100.02 total (cash $85, BP $85 settled, PANW equity $15.02). 1 open position. 1/2 daily buys used.
+**Regime:** SPY +0.63% / QQQ +0.39% / XLK +0.32% / SMH -0.05% (semis flat). VIX 18.35 (moderate). Context: 6/23 was a tech/AI rout (Nasdaq -2.21%) on a BofA rate-hike note + Asian tumble; today is a relief bounce led by oversold laggards. MU earnings after close tonight = headline/semis risk into tomorrow. Mixed/choppy, not clean trending leadership.
+
+### Position review — PANW (HOLD)
+- Live $288.14 vs $287.82 entry → +0.11% (~flat). Down -0.95% on the day (noise; low semis correlation).
+- **RS recomputed:** RS_20 = (288.14/256.75)/(738.20/750.59) = **1.141** (>1.02 ✓); RS_60 = (288.14/147.02)/(738.20/634.09) = **1.683** (>0.98 ✓). Still a clear leader.
+- Above the $282 invalidation (well clear). No near-term earnings (8/17). Spread tight (~0.06%). **HOLD.** YOU are the stop — sell below 282 at a future check.
+
+### Scan & candidates (RS vs SPY: 20d-ago 750.59 [5/26], 60d-ago 634.09 [3/27])
+| Ticker | Today | RS_20 | RS_60 | Verdict |
+|--------|-------|-------|-------|---------|
+| ANET | +1.2% | 1.056 ✓ | 1.167 ✓ | RS passes, but **-6.4% reversal 6/23 = insider sell ($43M Bechtolsheim) + AI rout + peak-growth/competitive warnings**; 1 bounce day, no base, conf<6 → reject |
+| CRWD | -0.3% | 1.028 ✓ | 1.578 ✓ | RS passes but RS_20 marginal; mid-range chop (660-712), no clean entry; **doubles cyber concentration w/ PANW**; conf<6 → reject |
+| NET | +0.6% | 1.058 ✓ | 0.958 ✗ | RS_60 fails; June downtrend off 249; skip |
+| META | +0.1% | 0.935 ✗ | — | fail RS_20 (declining) |
+| GOOGL | +1.2% | 0.916 ✗ | — | fail RS_20 (laggard bounce) |
+| APP | -0.9% | 0.915 ✗ | — | fail RS_20 (June downtrend) |
+| NFLX | -0.9% | 0.837 ✗ | — | fail RS_20 |
+| ORCL/HOOD/PLTR | -3.9%/-3.3%/-2.3% | — | — | breaking down, skip |
+
+### Decision: HOLD PANW, **NO new position**
+Not a reflex — scanned 12 names, computed RS on 7, news-checked the 2 RS-passers. ANET's strong RS is undercut by a confirmed distribution day (insider selling + competitive/peak-growth concerns); its one-day bounce is a dead-cat risk, not a clean reclaim. CRWD passes RS but only marginally on RS_20, sits mid-range with no clean entry, and would concentrate me in cybersecurity alongside PANW. With a major semis catalyst (MU) tonight and rate-hike chatter, adding risk on a laggard-led relief bounce is poor R/R. Hold the one clean leader, keep $85 dry. Room for 1 buy today + 2 slots — re-scan next run.
+
+### Benchmark
+- Strategy: +0.02% from $100 baseline. QQQ since 6/23 close (713.65 → 716.40): **+0.39%.** Strategy lagging buy-and-hold QQQ by ~0.37 pts — expected at ~85% cash with PANW flat. Day 1, honest read: cash drag is the cost of waiting for clean setups.
+
+**Day 1 — $100.02 — up 0.02% from baseline.**

@@ -2,8 +2,8 @@
   "day_number": 1,
   "date": "2026-06-24",
   "baseline_value": 100.00,
-  "current_account_value": 99.98,
-  "cumulative_return_pct": -0.02,
+  "current_account_value": 100.02,
+  "cumulative_return_pct": 0.02,
   "open_position_count": 1,
   "qqq_baseline": 713.65,
   "qqq_baseline_date": "2026-06-23",
@@ -13,9 +13,10 @@
   ],
   "last_10_events": [
     "2026-06-24 13:36 UTC - Day 1 Run2. Flat, BP $100 settled. RS-pass AMD/ANET/CRWD/MU. NO TRADE (MU blowoff+earns tonight, semi read-through, CRWD marginal). Conf<6.",
-    "2026-06-24 14:37 UTC - Day 1 Run3a. Selected PANW (RS 1.135/1.636, cyber, pullback to 284 shelf). Attempted BUY $15 -> broker blocked (API400 investor profile required before 2nd trade). No position.",
-    "2026-06-24 14:44 UTC - Day 1 Run3b. User completed investor profile; RETRY FILLED: BUY 0.052115 sh PANW @ $287.82 ($15, $0 fees). Stop 282, target 302, R/R 2.4, 15% size. 1 of 2 daily buys used. Now 1 open position. Cash ~$85.",
-    "2026-06-24 15:35 UTC - Day 1 Run4. HOLD PANW ($287.58, RS 1.137/1.678, above 282 invalidation, ~flat; -1.1% today on green tape, low MU corr). NO new buy: GOOGL/AVGO/NVDA/META fail RS_20 (laggard bounces, mean-revert day); ANET passes RS_20 1.059 but -7% whipsaw 6/23, no clean base, conf<6. VIX 18.18, choppy tape. AcctVal $99.98 (-0.02%). QQQ bench +0.41%."
+    "2026-06-24 14:37 UTC - Day 1 Run3a. Selected PANW. Attempted BUY $15 -> broker blocked (API400 investor profile required). No position.",
+    "2026-06-24 14:44 UTC - Day 1 Run3b. RETRY FILLED: BUY 0.052115 sh PANW @ $287.82 ($15, $0 fees). Stop 282, target 302, R/R 2.4, 15% size. 1 of 2 daily buys used. 1 open position. Cash ~$85.",
+    "2026-06-24 15:35 UTC - Day 1 Run4. HOLD PANW (RS 1.137/1.678). NO new buy: GOOGL/AVGO/NVDA/META fail RS_20; ANET RS-passes but -7% whipsaw, no base, conf<6. VIX 18.18. QQQ bench +0.41%.",
+    "2026-06-24 16:05 UTC - Day 1 Run5. HOLD PANW (RS 1.141/1.683; $288.14 above 282, +0.11% vs entry). NO new buy: scanned 12/RS on 7. ANET RS-pass(1.056/1.167) but 6/23 drop=insider sell($43M)+AI rout+peak-growth warnings, conf<6. CRWD RS-pass(1.028/1.578) but marginal RS_20+mid-range+cyber overlap, conf<6. Others fail RS. VIX 18.35, SPY +0.63%, MU earns tonight. AcctVal $100.02 (+0.02%). QQQ bench +0.39%."
   ],
-  "notes": "OPEN: PANW 0.052115 sh @ 287.82, stop 282 (YOU are the stop - sell if below 282 at a check; mind T+1, avoid same-day round trip), target 302, R/R 2.4. PANW RS still strong (1.137/1.678). Tape is choppy/mean-reverting: SPY +0.74% today but -1.5% over 20 sessions; today's big movers (GOOGL/AVGO) are oversold laggard bounces that FAIL RS_20. MU reports tonight (6/24 AC, ~17% implied) - watch semis/AI read-through tomorrow (PANW low correlation). 1/2 daily buys used; room for 1 more new position + 2 more slots. QQQ baseline 713.65; QQQ +0.41% vs strategy -0.02%."
+  "notes": "OPEN: PANW 0.052115 sh @ 287.82, stop 282 (YOU are the stop - sell if below 282 at a check; mind T+1, avoid same-day round trip), target 302, R/R 2.3. PANW RS strong (1.141/1.683). Tape mixed: 6/23 tech/AI rout (rate-hike note+Asian tumble), 6/24 relief bounce led by oversold LAGGARDS (GOOGL/AVGO) that FAIL RS_20; real leaders flat/down. ANET RS-passes but 6/23 -6.4% was insider selling+competitive concerns (reject). CRWD RS-passes but marginal RS_20+mid-range+would double cyber w/PANW (reject). MU reports after close tonight 6/24 (~17% implied) - watch semis/AI read-through tomorrow (PANW low corr). 1/2 daily buys used; room for 1 more + 2 slots. $85 settled cash dry. QQQ baseline 713.65; QQQ +0.39% vs strategy +0.02% (cash drag expected)."
 }
