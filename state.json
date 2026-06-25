@@ -1,9 +1,9 @@
 {
-  "day_number": 1,
-  "date": "2026-06-24",
+  "day_number": 2,
+  "date": "2026-06-25",
   "baseline_value": 100.00,
-  "current_account_value": 99.92,
-  "cumulative_return_pct": -0.08,
+  "current_account_value": 100.03,
+  "cumulative_return_pct": 0.03,
   "open_position_count": 1,
   "qqq_baseline": 713.65,
   "qqq_baseline_date": "2026-06-23",
@@ -12,12 +12,11 @@
     {"ticker": "PANW", "qty": 0.052115, "entry": 287.8199, "cost": 15.00, "stop": 282.00, "target": 302.00, "opened": "2026-06-24T14:44Z", "order_id": "6a3bed3b-4089-47ac-997f-c6f8d353c35f"}
   ],
   "last_10_events": [
-    "2026-06-24 14:44 UTC - Day 1 Run3b. FILLED: BUY 0.052115 sh PANW @ $287.82 ($15, $0 fees). Stop 282, target 302, R/R 2.4, 15% size. 1 of 3 daily buys used.",
-    "2026-06-24 15:35 UTC - Day 1 Run4. HOLD PANW (RS 1.137/1.678). NO new buy: GOOGL/AVGO/NVDA/META fail RS_20; ANET RS-passes but -7% whipsaw. VIX 18.18. QQQ bench +0.41%.",
     "2026-06-24 16:05 UTC - Day 1 Run5. HOLD PANW (RS 1.141/1.683). NO new buy: ANET insider sale+AI rout, CRWD marginal+cyber overlap, others fail RS. VIX 18.35. QQQ bench +0.39%.",
     "2026-06-24 16:34 UTC - Day 1 Run6. HOLD PANW (RS 1.142/1.685; +$0.02). NO new buy: AVGO/GEV RS fail, ANET falling-knife, HOOD/PLTR/APP breaking down. VIX 18.42, SPY +0.55%/QQQ +0.23%. QQQ bench +0.23%.",
-    "2026-06-24 18:34 UTC - Day 1 Run7. HOLD PANW (RS 1.142/1.685; 286.74 above 282, -0.38% vs entry). DEFENSIVE: tech weak - SPY +0.07% flat but QQQ -0.49%/XLK -0.81%/SMH -1.34% red, VIX 19.26. NO new buy (universe dry, won't add 2nd tech long into red-tech day). Strat -0.06% vs QQQ bench -0.49%. 1/3 daily buys used.",
-    "2026-06-24 19:34 UTC - Day 1 Run8. HOLD PANW (RS 1.144/1.688; last 286.345 above 282, -0.51% vs entry). DEFENSIVE: tech red again - SPY -0.27%/QQQ -0.88%/XLK -1.25%/SMH -1.64% all red, semis leading, VIX up to 20.01. NO new buy (universe swept 7 runs, poor R/R adding tech-correlated long into red-tech/rising-VIX near close). Strat -0.08% vs QQQ bench -0.88% (cash cushion winning). 1/3 daily buys used; 3 slots free."
+    "2026-06-24 18:34 UTC - Day 1 Run7. HOLD PANW. DEFENSIVE: tech weak - QQQ -0.49%/XLK -0.81%/SMH -1.34% red, VIX 19.26. NO new buy. Strat -0.06% vs QQQ bench -0.49%.",
+    "2026-06-24 19:34 UTC - Day 1 Run8. HOLD PANW. DEFENSIVE: QQQ -0.88%/XLK -1.25%/SMH -1.64% red, VIX 20.01. NO new buy. Strat -0.08% vs QQQ bench -0.88% (cash cushion winning).",
+    "2026-06-25 13:36 UTC - Day 2 Run1 (~9:36 ET open). HOLD PANW (RS 1.182/1.602; last 288.445 above 282 invalidation; +$0.03). NO new buy: bifurcated tape - SMH +4.46% but driven by MU +19% earnings squeeze (AMD +5.3, VRT +6.5, MRVL +3.8, GEV +3.8, ANET +3.5 all gapping = chase); NVDA RS_20 0.95 / AVGO RS_20 0.93 FAIL; software/internet/fintech red (APP -8.6, PLTR -3.7, MSFT -1.6, GOOGL -2.6, META -2.3). No clean non-extended RS leader. VIX 18.17. Strat +0.03% vs QQQ bench +1.35% (cash drag on up-QQQ day). 0/3 daily buys used; 3 slots free."
   ],
-  "notes": "OPEN: PANW 0.052115 sh @ 287.82, stop 282 (YOU are the stop - sell if below 282 at a check; mind T+1, avoid same-day round trip), target 302, R/R ~3.5 from here. PANW RS strong (1.144/1.688), above invalidation, only clean RS leader held. Run8 tape: TECH WEAK/VOL RISING - SPY -0.27%, QQQ -0.88%, XLK -1.25%, SMH -1.64% all red (semis leading down), VIX risen 18.4->19.26->20.01 across the day = defensive on NEW risk. Candidate universe (GOOGL/AVGO/NVDA/META/ANET/CRWD/GEV/HOOD/PLTR/APP) swept across 7 prior runs, nothing clean: laggards fail RS, ANET falling-knife (insider sale + peak-growth), leaders flat/down. Adding 2nd tech-correlated long into red-tech/rising-VIX near close = poor R/R, so NO TRADE (defensive, not reflex). 1/3 daily buys used; 3 position slots free; $85 settled cash dry. QQQ baseline 713.65; QQQ -0.88% vs strategy -0.08% - cash cushion beating buy-and-hold QQQ today."
+  "notes": "OPEN: PANW 0.052115 sh @ 287.82, stop 282 (YOU are the stop - sell if below 282 at a check; mind T+1), target 302, R/R ~2.1 from 288.45. PANW RS recomputed from real bars: RS_20 1.182 (20d-ago 5/27 248.47), RS_60 1.602 (60d-ago 3/30 154.35) - strong leader, above invalidation, only clean RS name held. Run1 Day2 tape: BIFURCATED. Headline SMH +4.46%/QQQ +1.78% looks risk-on but is a NARROW MU-earnings squeeze: MU +19.4% (blowout), AMD +5.34%, VRT +6.5%, MRVL +3.8%, GEV +3.8%, ANET +3.5% - all GAPPING (chasing forbidden). Meanwhile mega-cap semis NVDA (RS_20 0.95) & AVGO (RS_20 0.93) FAIL RS_20 (20-day laggards), and software/internet/fintech RED: APP -8.6%, PLTR -3.7%, NET -2.2%, ORCL -0.9%, MSFT -1.6%, GOOGL -2.6%, META -2.3%, NOW -3.8%, HOOD -0.4%, TSLA -0.6%. So strong-RS names are gapping/extended and non-extended names fail RS or are red = NO clean entry. NO TRADE (disciplined, not reflex). VIX 18.17 calm. 0/3 daily buys used; 3 slots free; $85 settled cash dry. QQQ baseline 713.65 (6/23) -> 723.295 = +1.35%; strategy +0.03% LAGS buy-and-hold QQQ today because 85% cash cannot capture the semis rip - honest read: on an up-QQQ day the cash cushion drags."
 }
