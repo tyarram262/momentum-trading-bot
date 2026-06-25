@@ -60,3 +60,47 @@ Every strong-RS name available today is **gapping 3.5–19%** (chasing big gaps 
 
 ### Standing
 **Day 2 - $100.03 - up 0.03% from baseline.**
+
+---
+
+## Run 2 — 2026-06-25 14:39 UTC (~10:39 ET) — **BUY CRWD $12**
+
+### Account snapshot (LIVE — reconciled, broker wins)
+- Total value (pre-buy): **$100.34** (portfolio total_value 100.3356); cash $85.00; buying power $85.00 (settled).
+- Open positions: 1 (PANW). No orders yet today → 0/3 daily buys used. Reconciles with state.json, no drift.
+
+### Market regime
+- SPY 736.36 (+0.43%), QQQ 714.53 (+0.55%), XLK 183.71 (+0.36%), SMH 628.92 (+1.62%). VIX **18.84** (calm).
+- **Read: supportive-but-bifurcated, calmer than the open.** QQQ gave back most of the open's MU-squeeze spike (was +1.78% at 9:36, now +0.55%). Semis/semicap still lead but are **gapping** (MU +10.5%, AMAT +6.2%, KLAC +3.6%, ANET +3.8%, LRCX +1.8% — chase-forbidden). Mega-cap **software/internet RED again**: MSFT −1.9%, GOOGL −1.3%, AAPL −4.8%, AMZN −2.2%, ORCL −2.7%, PLTR −4.6%, NOW −2.4%, NVDA −2.2%. **Cyber is the one clean green pocket** (PANW +3.0%, CRWD +2.4%). Classification: NEUTRAL/supportive → high-quality non-extended setups allowed at normal/slightly-reduced size.
+
+### Existing position review — PANW (HOLD)
+- Last $293.95 (+3.0%), bid 293.75 / ask 294.22 (spread 0.16%). RS_20 **1.206**, RS_60 **1.635** (real bars: 20d-ago 5/27 248.47, 60d-ago 3/30 154.35; SPY 736.36, 750.46, 631.97). Far above 282 invalidation; not yet at 2R trim (2R ≈ $299.5). **HOLD.**
+
+### Scan & research (RS computed from real bars; SPY ratios 736.36/750.46=0.981, /631.97=1.165)
+| Ticker | Today % | RS_20 | RS_60 | Verdict |
+|--------|---------|-------|-------|---------|
+| **CRWD** | +2.4% | **1.089** | **1.557** | **BUY** — clean 3-wk base 644–693 pressing top, 12% below ATH, multi-factor edge |
+| AMD | −0.3% | 1.066 | 2.269 | Skip — 5–7% daily ATR: tight stop = noise-bait, wide stop (~490) → R/R 1.57 < 1.7; mid-range chop |
+| KLAC | +3.6% | 1.297 | 1.547 | Skip — +3.6% intraday bounce off pullback = chasing; semicap group extended on MU wave |
+| NET | +1.6% | 1.106 | 1.001 | Skip — RS_60 barely passing (60-day market-performer), mid-range |
+| MU/AMAT/LRCX/ANET | +10.5/+6.2/+1.8/+3.8 | — | — | Skip — all gapping on MU squeeze; chasing forbidden |
+| MSFT/GOOGL/AAPL/AMZN/ORCL/PLTR/NOW/NVDA | red | — | — | Skip — red / fail RS, no momentum |
+
+### Decision — BUY CRWD $12 (12%), confidence 6/10
+- **Setup**: 3-week post-earnings base ($644–693) tightening and pressing the top (+2.4%); 12% below ATH $782. Base/breakout-attempt entry.
+- **RS**: RS_20 (689.34/645.36)/0.981 = **1.089** ✓; RS_60 (689.34/380.06)/1.165 = **1.557** ✓ (20d-ago 5/27 645.36, 60d-ago 3/30 380.06).
+- **Catalyst/fundamentals**: strong Q1 FY2027 (rev $1.386B, swung to net income $27.8M), **raised full-year guidance**; AI-security momentum + AWS Falcon expansion; **4-for-1 split effective 7/2** (flow catalyst, not binary). Caveat: consensus 12-mo target ~$712 (only ~+3.5%), Berenberg flags valuation 45% above historical multiple.
+- **Entry** ~$690.01 (filled). **Stop 665** (base low / under 6/8 low $658) → dollar downside **−$0.41** (−3.4%). **Target 740** (above consensus) then **782** ATH. **R/R ≈ 2.26:1.**
+- **Sizing**: reduced to **12%** (vs normal 15%) because CRWD is **cybersecurity, same as PANW** → book becomes ~27% cyber. Acceptable (cyber is the leading green pocket; within 20% per-position cap; no sector cap in rules) but **no further cyber adds**; any 3rd name must diversify.
+- **Order**: market, regular hours, $12.00. Review clean (no broker alerts). Spread $2.47/0.36% — acceptable for a fractional market order.
+
+### Execution / fill (VERIFIED)
+- **FILLED**: 0.017391 sh @ avg **$690.0099**, $12.00, **$0 fees**, order `6a3d3da1-8e8b-417f-96aa-cd052a879ea2`, 14:39:30 UTC, placed_agent=agentic.
+- Post-trade: cash **$73.00** (settled), 2 positions, 1/3 daily buys used, 2 slots free.
+
+### Benchmark (honest)
+- QQQ baseline 713.65 (6/23) → 714.53 now = **+0.12%**. Strategy $100.00 → ~$100.30 = **+0.30%**.
+- Strategy is now **slightly ahead** of QQQ buy-and-hold — QQQ faded the open's MU squeeze (was +1.35% at Run 1) back to roughly flat, while PANW held its gain and we added CRWD into the leading cyber pocket. Two days in; small sample, stated plainly.
+
+### Standing
+**Day 2 - $100.30 - up 0.30% from baseline.**

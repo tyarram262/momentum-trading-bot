@@ -1,28 +1,27 @@
-# Open Positions — as of 2026-06-25 13:36 UTC (Day 2, Run 1 — HOLD, no new trade)
+# Open Positions — as of 2026-06-25 14:39 UTC (Day 2, Run 2 — BUY CRWD)
 
-**Account 996456778 (Agentic cash)** — 1 open position.
+**Account 996456778 (Agentic cash)** — 2 open positions.
 
 | Ticker | Entry | Stop | Target | Size | Last | Unrealized P&L |
 |--------|-------|------|--------|------|------|----------------|
-| PANW | 287.82 | 282.00 | 302.00 | 0.052115 sh / $15.00 (15%) | 288.445 | ~+$0.03 (+0.21%) |
+| PANW | 287.82 | 282.00 | 302.00 | 0.052115 sh / $15.00 (15%) | 293.95 | ~+$0.32 (+2.13%) |
+| CRWD | 690.01 | 665.00 | 740 → 782 | 0.017391 sh / $12.00 (12%) | 688.76 | ~−$0.02 (spread) |
 
-- **PANW** — 0.052115 sh @ avg **$287.8199** ($15.00 cost, $0 fees). Last $288.445 (bid 287.90 / ask 288.99, spread ~$1.09 / 0.38% — acceptable for a hold; no new fractional buy needed).
-  - Invalidation: price below **282** (under the 284 support shelf & 6/23 low 282.52). Dollar downside to stop ≈ **$0.34** on the position from here (−2.2%). YOU are the stop — sell if it prints below 282 at a check.
-  - Target ~302 (52w-high retest), ≈ +$0.71 from here. **R/R from here ≈ 2.1:1.**
-  - RS recomputed from real bars this run: **RS_20 1.182** (20d-ago 5/27 close 248.47), **RS_60 1.602** (60d-ago 3/30 close 154.35) — still a strong leader. +1.12% today, holding up while software/internet are red. Structure intact, above invalidation. **HOLD.**
-  - Next earnings ~8/17 (no near-term binary).
+- **PANW** — 0.052115 sh @ avg **$287.8199**. Last $293.95 (bid 293.75 / ask 294.22, spread ~$0.47 / 0.16%). RS_20 **1.206**, RS_60 **1.635** (20d-ago 5/27 248.47, 60d-ago 3/30 154.35). +3.0% today, far above the 282 invalidation. **HOLD** — strong leader, trend intact, not yet at 2R trim (2R ≈ $299.5). YOU are the stop: sell if it prints below **282** at a check. Target ~302 (52w-high retest). Next earnings ~8/17.
+
+- **CRWD** — 0.017391 sh @ avg **$690.0099** ($12.00 cost, $0 fees, filled 14:39:30 UTC). Last $688.76 (bid 689.00 / ask 690.10, spread ~$1.10 / 0.16%). RS_20 **1.089**, RS_60 **1.557** (20d-ago 5/27 645.36, 60d-ago 3/30 380.06). Setup: 3-week post-earnings base ($644–693) pressing the top; 12% below ATH $782.
+  - Invalidation: price below **665** (base low / under 6/8 low $658). Dollar downside to stop ≈ **$0.41** on the position (−3.4%). YOU are the stop — sell if it prints below 665 at a check.
+  - Target ~740 first (above consensus $712), then ATH ~782. **R/R ≈ 2.26:1.**
+  - Catalyst: strong Q1 FY2027 + raised guidance; AI-security/AWS expansion; **4-for-1 split effective 7/2** (flow catalyst, not binary). Confidence 6/10.
 
 ## Cash / Buying Power
-- Total account value: **$100.03**
-- Cash: **$85.00**
-- Settled buying power: **$85.00** (fully spendable — original settled cash, no unsettled proceeds)
-- Equity value: **$15.03** (PANW)
+- Total account value: **~$100.30**
+- Cash: **$73.00**
+- Settled buying power: **$73.00** (fully settled; no unsettled proceeds — CRWD bought with settled cash)
+- Equity value: **~$27.30** (PANW ~$15.32 + CRWD ~$11.98)
 
 ## Notes
-- 0 of 3 daily new-position budget used today. Up to 4 positions allowed; room for 3 more names.
-- **Run 1 (Day 2) decision: NO new position (disciplined, not reflex).** Tape is **bifurcated**: headline SMH +4.46% / QQQ +1.78% looks risk-on but is a **narrow MU-earnings squeeze** — MU +19.4%, AMD +5.34%, VRT +6.5%, MRVL +3.8%, GEV +3.8%, ANET +3.5% are all **gapping** (chasing big gaps is forbidden, no nearby invalidation). Meanwhile:
-  - Non-extended mega-cap semis **FAIL RS_20**: NVDA 0.95, AVGO 0.93 (both 20-day laggards).
-  - Software / internet / fintech are **RED**: APP −8.6%, PLTR −3.7%, NOW −3.8%, GOOGL −2.6%, META −2.3%, NET −2.2%, MSFT −1.6%, ORCL −0.9%, HOOD −0.4%, TSLA −0.6%.
-  - Net: every strong-RS name is gapping/extended; every non-extended name fails RS or is red → **no clean entry exists**. VIX 18.17 (calm).
-- Keep $85 settled dry; mind T+1 (no same-day round trips). YOU are the stop on PANW (sell below 282).
-- **Benchmark:** strategy **+0.03%** vs QQQ buy-and-hold **+1.35%** since baseline (QQQ 713.65 on 6/23 → 723.295). On this up-QQQ day the 85%-cash position **drags** — buy-and-hold QQQ is ahead over the 2-day window. Honest read: the cash cushion that won yesterday's down-tech day costs us on today's semis rip.
+- **1 of 3 daily new-position budget used** (CRWD buy). 2 of 4 position slots filled; 2 slots free.
+- **Concentration flag:** PANW + CRWD = ~27% in cybersecurity. Acceptable — cyber is the leading green pocket today and within the 20% per-position cap (no sector cap in rules) — but no further cyber adds; any 3rd position must diversify.
+- Settlement: CRWD bought with settled cash; do NOT sell either name with unsettled proceeds. Multi-day hold; avoid same-day round trips (exits are risk-stops only).
+- **Benchmark:** strategy **+0.30%** vs QQQ buy-and-hold **+0.12%** since baseline (QQQ 713.65 on 6/23 → 714.53 now). QQQ gave back the Day-2 open squeeze (was +1.35% at the open) — strategy is now slightly AHEAD of buy-and-hold as the narrow MU rip faded.
