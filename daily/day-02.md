@@ -150,3 +150,44 @@ No entry clears all criteria. 1/3 daily buys used; 2/4 slots filled; 2 free; $73
 
 ### Standing
 **Day 2 - $100.16 - up 0.16% from baseline.**
+
+---
+
+## Run 4 — 2026-06-25 16:35 UTC (~12:35 ET)
+
+**Decision: NO new buy (disciplined). HOLD PANW + CRWD.**
+
+### Account
+- Total value **$99.82** (baseline $100.00 → **−0.18%**). Cash/settled BP **$73.00**. Equity ~$26.82 (PANW ~$15.15 + CRWD ~$11.67). 2/4 slots, 1/3 daily buys used.
+- Reconciliation: live broker data matches state.json (PANW 0.052115 @ 287.83, CRWD 0.017391 @ 690.01; only CRWD order today). No drift.
+
+### Regime — supportive-bifurcated
+- SPY 733.27 **+0.0%** (flat) · QQQ 714.89 **+0.60%** · XLK 184.01 **+0.52%** · SMH 635.83 **+2.73%** (semis leading hard) · VIX **19.13** (calm).
+- Tech leadership intact at the index level but internals are split: a narrow semis/networking pocket is running while mega-cap software/AI is being distributed. Not defensive, but quality entries are scarce.
+
+### Position review (fresh quotes + RS)
+- **PANW** — $290.78, +1.0% vs $287.82 entry, far above 282 stop. RS_20 **1.198**, RS_60 **1.624**. Strong leader, trend + RS intact, not at 2R trim (2R ≈ 299.5). **HOLD.**
+- **CRWD** — $670.94, −2.76% vs $690.01 entry, holding above 665 base low. RS_20 **1.064**, RS_60 **1.522** — both gates still clear. Same-day position (no round-trip); remaining downside to 665 ≈ $0.10. **HOLD, WATCH** — software rotation is a risk; if it loses 665 next check, cut.
+
+### Scan — no qualifying diversifier
+Book is ~27% cyber, so a 3rd position must diversify. Screened 10 diversifying candidates:
+
+| Ticker | %day | Verdict |
+|---|---|---|
+| MSFT | −3.78% | RED vs flat SPY → fails SPY gate |
+| NOW | −3.89% | RED → fails SPY gate |
+| ORCL | −3.45% | RED → fails SPY gate |
+| AMZN | −2.97% | RED → fails SPY gate |
+| META | −2.01% | RED → fails SPY gate |
+| NVDA | −1.87% | RED → fails SPY gate |
+| GOOGL | −1.42% | RED → fails SPY gate |
+| AMD | +1.03% | green but extended semi (run hard) |
+| ANET | +4.11% | green, gapping = chase forbidden |
+| AVGO | +0.02% | flat, lagging SMH +2.73% = weak within semis |
+
+Every diversifying green name is extended/gapping midday (chase, forbidden); every pulled-back name is RED while SPY is flat = losing relative strength today (a red-vs-flat-SPY pullback is not a buy — fails the binding SPY gate). No clean, non-extended, non-cyber RS leader with R/R ≥ 1.7 and confidence ≥ 6. **NO TRADE — disciplined, with a real reason, not a reflex.**
+
+### Benchmark (honest)
+- Strategy **−0.18%** vs QQQ buy-and-hold **+0.17%** since baseline (QQQ 713.65 on 6/23 → 714.89 now). **Now slightly BEHIND buy-and-hold.** The ~73% cash position protected capital on the red-tech days of Day 1 but drags on up-QQQ days, and CRWD's −2.76% drawdown adds to the gap. Capital is intact and risk is controlled, but on a relative basis cash discipline is currently costing performance.
+
+**Day 2 — $99.82 — down 0.18% from baseline.**
