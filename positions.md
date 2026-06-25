@@ -1,28 +1,28 @@
-# Open Positions — as of 2026-06-25 17:35 UTC (Day 2, Run 5 — NO new buy, HOLD ×2)
+# Open Positions — as of 2026-06-25 18:34 UTC (Day 2, Run 6 — NO new buy, HOLD ×2)
 
 **Account 996456778 (Agentic cash)** — 2 open positions.
 
 | Ticker | Entry | Stop | Target | Size | Last | Unrealized P&L |
 |--------|-------|------|--------|------|------|----------------|
-| PANW | 287.82 | 282.00 | 302.00 | 0.052115 sh / $15.00 (15%) | 292.33 | ~+$0.24 (+1.57%) |
-| CRWD | 690.01 | 665.00 | 740 → 782 | 0.017391 sh / $12.00 (12%) | 674.00 | ~−$0.28 (−2.32%) |
+| PANW | 287.82 | 282.00 | 302.00 | 0.052115 sh / $15.00 (15%) | 294.98 | ~+$0.37 (+2.49%) |
+| CRWD | 690.01 | 665.00 | 740 → 782 | 0.017391 sh / $12.00 (12%) | 682.86 | ~−$0.12 (−1.04%) |
 
-- **PANW** — 0.052115 sh @ avg **$287.8199**. Last $292.33 (bid 292.17 / ask 292.33, spread ~$0.16 / 0.05%). RS_20 **1.205**, RS_60 **1.633** (20d-ago 5/27 248.47, 60d-ago 3/30 154.35; SPY 750.46 / 631.97 / 733.01). +1.57% vs entry, well above the 282 invalidation; +2.48% on the day — the firm pocket while mega-cap tech sold off. **HOLD** — strong leader, trend + RS intact; 2R ≈ $299.5 (not reached), target ~302. YOU are the stop: sell if it prints below **282** at a check. Next earnings ~8/17.
+- **PANW** — 0.052115 sh @ avg **$287.8199**. Last $294.98 (bid 294.93 / ask 295.03, spread ~$0.10 / 0.03%). RS_20 ~**1.21**, RS_60 ~**1.64** (still clearing gates; green vs flat SPY today = RS rising). +2.49% vs entry, far above the 282 invalidation; +3.41% on the day — the firm pocket while mega-cap tech sold off. **HOLD** — strong leader, trend + RS intact; 2R ≈ $299.5 (not reached), target ~302. YOU are the stop: sell if it prints below **282** at a check. Next earnings ~8/17.
 
-- **CRWD** — 0.017391 sh @ avg **$690.0099** ($12.00 cost, bought 6/25 14:39 UTC). Last $674.00 (bid 674.00 / ask 674.69, spread ~$0.69 / 0.10%). RS_20 **1.069**, RS_60 **1.529** (20d-ago 5/27 645.36, 60d-ago 3/30 380.06). ~2.32% below entry but **both RS gates still clear** and price holds above the 665 base low (bounced from Run4's 670.94).
-  - Invalidation: price below **665**. Remaining dollar downside to stop ≈ **$0.16** on the position. YOU are the stop — sell if it prints below 665 at a check. **Same-day position** — do NOT round-trip; any exit is a risk-stop only (below 665).
+- **CRWD** — 0.017391 sh @ avg **$690.0099** ($12.00 cost, bought 6/25 14:39 UTC). Last $682.86 (bid 682.74 / ask 683.65, spread ~$0.91 / 0.13%). RS_20 ~**1.08**, RS_60 ~**1.53** (both gates clear). −1.04% vs entry but recovered from Run5's 674.00 (+1.46% on day) and holds above the 665 base low.
+  - Invalidation: price below **665**. Remaining dollar downside to stop ≈ **$0.31** on the position. YOU are the stop — sell if it prints below 665 at a check. **Same-day position** — do NOT round-trip; any exit is a risk-stop only (below 665).
   - Target ~740 first, then ATH ~782. **R/R from entry ≈ 2.26:1.** Catalyst: strong Q1 FY27 + raised guide; **4-for-1 split effective 7/2**. Confidence 6/10.
 
 ## Cash / Buying Power
-- Total account value: **~$99.96**
+- Total account value: **~$100.26**
 - Cash: **$73.00**
 - Settled buying power: **$73.00** (fully settled, no unsettled proceeds)
-- Equity value: **~$26.96** (PANW ~$15.24 + CRWD ~$11.72)
+- Equity value: **~$27.25** (PANW ~$15.37 + CRWD ~$11.88)
 
 ## Notes
 - **1 of 3 daily new-position budget used** (CRWD buy at Run 2). 2 of 4 position slots filled; 2 slots free.
 - **Concentration flag:** PANW + CRWD = ~27% in cybersecurity. No further cyber adds; any 3rd position must diversify.
-- **Run 5 NO new buy (disciplined):** same risk-off rotation as Run 4, only sharper. The entire mega-cap software/AI/internet complex is RED vs a flat SPY (AAPL −5.20%, NOW −4.03%, MSFT −3.89%, ORCL −3.68%, AMZN −2.53%, META −2.44%, NVDA −1.79%, GOOGL −1.23%) → all failing the SPY gate (red-vs-flat-SPY is a falling knife, not a buy). The only green is an extended semis pocket (AMD +1.58% gapping = chase forbidden; AVGO −0.42% lagging SMH +3.02% = weak within semis). No clean, non-extended, non-cyber RS leader.
-- **Regime:** supportive-bifurcated — SPY −0.03% / QQQ +0.76% / XLK +0.76% / SMH +3.02% (semis leading hard), VIX 19.03 (calm). Not defensive, but no qualifying setup. Narrow leadership is a yellow flag — watch breadth.
+- **Run 6 NO new buy (disciplined):** same bifurcation as Runs 3–5. Mega-cap software/AI/internet RED vs flattish SPY (NOW −2.97%, ORCL −2.95%, META −2.00%, NVDA −1.94%, GOOGL −0.87%, AVGO −0.61%) → fail the binding SPY gate. Only green is an extended semis pocket (MU +15.9% blowoff, ANET +4.63%, AMD +0.72% = chase forbidden). No clean, non-extended, non-cyber RS leader.
+- **Regime:** supportive-bifurcated — SPY +0.12% / QQQ +0.86% / XLK +0.86% / SMH +2.42% (semis leading), VIX 18.84 (calm). Not defensive, but no qualifying setup. Narrow leadership remains a yellow flag.
 - Settlement: do NOT sell either name with unsettled proceeds. Multi-day hold; exits are risk-stops only.
-- **Benchmark:** strategy **−0.04%** vs QQQ buy-and-hold **+0.33%** since baseline (QQQ 713.65 on 6/23 → 715.995 now). Strategy is **slightly behind** buy-and-hold — the ~73% cash position drags on up-QQQ days. PANW's +2.48% pulled the book back near flat from Run4's −0.18%. Honest read: cash discipline protects capital on red-tech days but costs relative performance on green-QQQ days; over the full window so far the two roughly offset, with QQQ marginally ahead.
+- **Benchmark:** strategy **+0.26%** vs QQQ buy-and-hold **+0.44%** since baseline (QQQ 713.65 on 6/23 → 716.76 now). Slightly behind buy-and-hold; gap narrowed from Run 5 as PANW's +3.4% day lifted the book to a fresh high. Cash discipline costs relative performance on up-QQQ days; PANW leadership is doing the work.
