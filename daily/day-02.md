@@ -104,3 +104,49 @@ Every strong-RS name available today is **gapping 3.5–19%** (chasing big gaps 
 
 ### Standing
 **Day 2 - $100.30 - up 0.30% from baseline.**
+
+---
+
+## Run 3 — 2026-06-25 15:34 UTC (~11:34 ET) — NO new buy, HOLD ×2
+
+### Account (live, reconciled — broker wins)
+- Total value **$100.16** (equity $27.16 + cash $73.00). Settled buying power **$73.00**.
+- Positions match state: PANW 0.052115 @ 287.8199, CRWD 0.017391 @ 690.0099. Today's orders: 1 buy (CRWD, Run 2). **1/3 daily buys used.** No drift.
+
+### Regime — supportive but bifurcated
+- SPY 735.00 **+0.24%**, QQQ 714.24 **+0.51%**, XLK 183.49 **+0.24%**, SMH 629.61 **+1.73%** (semis leading). VIX **18.88** (calm).
+- Healthy/green tape overall, but the leadership is concentrated in data-center/power/semis-adjacent names that are **gapping up midday**, while mega-cap software/internet is **red** — same bifurcation as Run 1–2.
+
+### Position review (fresh quotes + RS)
+- **PANW** $293.48 — RS_20 **1.206**, RS_60 **1.635**. +2.9% today, far above the **282** stop. Trend + RS intact, not at 2R trim (~$299.5). **HOLD.**
+- **CRWD** $682.09 — RS_20 **1.079**, RS_60 **1.543**. Eased ~1.1% below the $690.01 entry but well inside the base and **above the 665 invalidation**; both RS gates still clear. Same-day position → no round-trip; exit only as a risk-stop below 665. **HOLD.**
+
+### Scan — 12 diversifying candidates (book already 27% cyber → 3rd must diversify)
+| Ticker | Day move | Read | Verdict |
+|--------|----------|------|---------|
+| GEV | +2.26% | Power/data-center leader, but extended midday + $1081 | Chase — skip |
+| VRT | +3.19% | Data-center power, strong but +3.2% intraday | Chase — skip |
+| ANET | +4.04% | Networking, gapping again | Chase — skip |
+| NVDA | −1.81% | Red while SPY green; RS_20 was 0.95 | Losing RS — skip |
+| AVGO | −0.35% | Flat-red laggard | Fail — skip |
+| META | −0.76% | Red | Losing RS — skip |
+| MSFT | −2.65% | Red, multi-day weak | Losing RS — skip |
+| GOOGL | −1.22% | Red | Losing RS — skip |
+| AMZN | −1.69% | Red | Losing RS — skip |
+| AAPL | −4.96% | Sharp breakdown | Avoid — skip |
+| NOW | −3.35% | Red, weak | Losing RS — skip |
+| NFLX | +0.68% | Mild green, no clean setup | No edge — skip |
+
+- Every green diversifier is **extended/gapping midday** → violates "not badly extended / avoid chasing gaps."
+- Every pulled-back name is **red while SPY is green** → it is *losing* relative strength today, so a pullback there is a weakness signal, not a buy → fails the SPY gate.
+- No clean, non-extended, diversifying RS leader. **NO new buy** — a documented, disciplined pass, not a reflex.
+
+### Decision — NO TRADE (HOLD PANW + CRWD)
+No entry clears all criteria. 1/3 daily buys used; 2/4 slots filled; 2 free; $73 settled dry.
+
+### Benchmark (honest)
+- QQQ baseline 713.65 (6/23) → 714.24 now = **+0.08%**. Strategy $100.00 → $100.16 = **+0.16%**.
+- Strategy still **slightly ahead** of QQQ buy-and-hold. Small sample (two days); stated plainly.
+
+### Standing
+**Day 2 - $100.16 - up 0.16% from baseline.**
