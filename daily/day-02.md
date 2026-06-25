@@ -191,3 +191,40 @@ Every diversifying green name is extended/gapping midday (chase, forbidden); eve
 - Strategy **−0.18%** vs QQQ buy-and-hold **+0.17%** since baseline (QQQ 713.65 on 6/23 → 714.89 now). **Now slightly BEHIND buy-and-hold.** The ~73% cash position protected capital on the red-tech days of Day 1 but drags on up-QQQ days, and CRWD's −2.76% drawdown adds to the gap. Capital is intact and risk is controlled, but on a relative basis cash discipline is currently costing performance.
 
 **Day 2 — $99.82 — down 0.18% from baseline.**
+
+---
+
+## Run 5 — 2026-06-25 17:35 UTC (~13:35 ET, early afternoon)
+
+**Account:** $99.96 total · $73.00 cash (= settled BP, no unsettled proceeds) · $26.96 equity · 2 positions · 1/3 daily buys used · 2 slots free.
+
+### Position review (live quotes + recomputed RS)
+- **PANW** — last **$292.33**, +1.57% vs $287.82 entry, **+2.48% on the day** (the firm pocket while mega-cap tech sold off). RS_20 **1.205** = (292.33/248.47)/(733.01/750.46); RS_60 **1.633** = (292.33/154.35)/(733.01/631.97). Far above the 282 invalidation; 2R ≈ 299.5 not reached. **HOLD.** Spread ~$0.16 (0.05%).
+- **CRWD** — last **$674.00**, −2.32% vs $690.01 entry, bounced off Run 4's 670.94. RS_20 **1.069**, RS_60 **1.529** — both gates still clear; holds above the 665 base low. Same-day position → no round-trip; exit only as a risk-stop below 665. **HOLD.** Spread ~$0.69 (0.10%).
+- Dollar downside to stops: PANW ~$0.54 to 282; CRWD ~$0.16 to 665. Both contained.
+
+### Regime
+SPY **−0.03%** (flat) / QQQ **+0.76%** / XLK **+0.76%** / SMH **+3.02%** (semis leading hard) · VIX **19.03** (calm). Supportive-but-sharply-bifurcated — narrow leadership (yellow flag, watch breadth). Not defensive.
+
+### Scan — diversifying 3rd position (book is 27% cyber; any add must diversify)
+Same risk-off rotation as Run 4, only **sharper**. The entire mega-cap software/AI/internet complex is RED vs a flat SPY → all fail the binding SPY gate:
+
+| Ticker | Day chg | Read |
+|--------|---------|------|
+| AAPL | −5.20% | falling knife |
+| NOW | −4.03% | red vs flat SPY |
+| MSFT | −3.89% | red vs flat SPY |
+| ORCL | −3.68% | red vs flat SPY |
+| AMZN | −2.53% | red vs flat SPY |
+| META | −2.44% | red vs flat SPY |
+| NVDA | −1.79% | red vs flat SPY |
+| GOOGL | −1.23% | red vs flat SPY |
+| AVGO | −0.42% | weak — lagging SMH +3.02% |
+| AMD | +1.58% | green but gapping/extended = chase forbidden |
+
+The only green names are an extended semis pocket (chase forbidden); every pulled-back name is RED vs a flat SPY = losing relative strength today (a red-vs-flat-SPY pullback fails the binding SPY gate — not a buy). No clean, non-extended, non-cyber RS leader with R/R ≥ 1.7 and confidence ≥ 6. **NO TRADE — disciplined, with a real reason, not a reflex.**
+
+### Benchmark (honest)
+- Strategy **−0.04%** vs QQQ buy-and-hold **+0.33%** since baseline (QQQ 713.65 on 6/23 → 715.995 now). Still **slightly behind** buy-and-hold — the ~73% cash position drags on an up-QQQ day. PANW's +2.48% pulled the book back near flat from Run 4's −0.18%. Honest read: cash discipline protects capital on red-tech days but costs relative performance on green-QQQ days; over the window so far the two roughly offset with QQQ marginally ahead.
+
+**Day 2 — $99.96 — down 0.04% from baseline.**
