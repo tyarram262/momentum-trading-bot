@@ -264,3 +264,23 @@ Green names are extended semis (chase forbidden); every pulled-back mega-cap is 
 - Strategy **+0.26%** vs QQQ buy-and-hold **+0.44%** since baseline (QQQ 713.65 on 6/23 → 716.76 now). Still **slightly behind** buy-and-hold, but the gap narrowed from Run 5 as PANW's rally (+3.4% on day) lifted the book to a fresh high (+0.26%). Cash discipline still costs relative performance on an up-QQQ day; PANW leadership is doing the work.
 
 **Day 2 — $100.26 — up 0.26% from baseline.**
+
+---
+
+## Run 7 — 2026-06-25 19:34 UTC (~15:34 ET, near close) — NO new buy, HOLD ×2
+
+**Live account:** total value **$100.07**, cash **$73.00**, settled BP **$73.00**, equity ~$27.08. Reconciles with state — PANW 0.052115 @ 287.82, CRWD 0.017391 @ 690.01. 1 buy filled today (CRWD, Run 2) → **1/3 daily buys used**.
+
+**Regime:** supportive-bifurcated. SPY **−0.16%** / QQQ **+0.44%** / XLK **+0.25%** / SMH **+1.99%** (semis still leading), VIX **19.15** (calm-to-slightly-elevated). Same split that has run all day — broad market flat-to-red, semis green, software/AI/internet red.
+
+**Position review (fresh quotes + RS vs SPY; 20d-ago = 5/27, 60d-ago = 3/30):**
+- **PANW** — last **292.95**, +1.78% vs 287.82 entry, **+2.70% on the day**, far above the 282 invalidation. RS_20 **1.209**, RS_60 **1.638** (clearing gates comfortably; green vs flat-red SPY = RS rising). **HOLD** — strongest leader in the book, doing the work again.
+- **CRWD** — last **679.10**, −1.58% vs 690.01 entry, +0.90% on the day but slipped from Run 6's 682.86. Above the **665** base low. RS_20 **1.079**, RS_60 **1.543** (both gates clear). **HOLD** — same-day position (settles 6/26), exit only as a risk-stop below 665. Remaining downside to stop ≈ $0.25.
+
+**Scan / decision:** Pulled 12 non-cyber RS candidates. The bifurcation is the same as Runs 3–6, now **sharper**: every mega-cap software/AI/internet name is RED vs a flat-red SPY (−0.16%) → all **fail the binding SPY gate**: NVDA −2.29%, AVGO −0.96%, ORCL −3.08%, MSFT −3.38%, NOW −4.42%, META −2.01%, GOOGL −0.55%, AAPL −5.63%. The only green is an **extended semis pocket** — MU +14.67% (post-earnings blowoff), ANET +2.93%, AMD +0.90% — all **chase forbidden**. NFLX ~flat (+0.31%, post-split ~$72) has no setup/catalyst. Book is already ~27% cyber, so any 3rd position must diversify, and there is no clean, non-extended, non-cyber RS leader with R/R ≥ 1.7 and confidence ≥ 6. It's ~25 min to the close — not chasing a name in.
+
+**Decision: NO new buy (disciplined, real reason — not reflex).** Both holds intact and above invalidation. 2/4 slots filled, 2 free; 1/3 daily buys used; $73 settled BP, no unsettled proceeds.
+
+**Benchmark:** Strategy **+0.07%** vs QQQ buy-and-hold **+0.01%** since baseline (QQQ 713.65 on 6/23 → 713.72 now). Now **marginally ahead** of buy-and-hold — QQQ gave back most of its intraday gain into the close while PANW's leadership held the book up. Cash discipline that cost relative performance on the up-QQQ intraday now reads roughly even-to-ahead as the index faded.
+
+**Day 2 — $100.07 — up 0.07% from baseline.**
