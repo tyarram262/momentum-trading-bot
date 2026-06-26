@@ -141,3 +141,28 @@ Book is ~27% cyber (PANW+CRWD); any 3rd must diversify, but no clean non-cyber R
 - 0/3 daily buys used; 2/4 slots; 2 free; $73 settled BP.
 
 `Day 3 - $100.73 - up 0.73% from baseline.`
+
+---
+
+## Run 5 — 2026-06-26 17:56 UTC (~13:56 ET)
+
+**Decision: NO new buy — HOLD PANW + CRWD.**
+
+**Account:** $100.56 total · $73.00 cash (settled BP) · $27.56 equity · +0.56% vs $100 baseline. Reconciled clean with broker (positions, cash, 0 orders today all match state).
+
+**Regime:** Bifurcated/soft, 5th straight run of the same shape. SPY −0.07% (flat), QQQ −0.65%, XLK −1.33%, SMH −3.26% (semis crashing 3rd day post-MU), VIX 18.85 (calm). Tech leadership narrow; mega-cap rotation but vertical. NEUTRAL/mixed tape → may take high-quality setups at reduced size, but none qualifies.
+
+**Positions (both pass RS gates, both above invalidation → HOLD):**
+- **PANW** — last $298.24, +1.76% on day (leading flat SPY), +3.62% vs $287.83 entry, far above 282 stop. RS_20 ≈ 1.19, RS_60 ≈ 1.75. Just under 2R (~$299.49) and the $302 target; trending/leading, not stalling → hold full. Sell below 282.
+- **CRWD** — last $691.07, +1.83% on day, +0.15% vs $690.01 entry, far above 665 base. RS_20 ≈ 1.06, RS_60 ≈ 1.62. 4-for-1 split effective 7/2. Sell below 665.
+
+**Scan (fresh 10-name basket, software/semis/internet/financials/industrials):**
+- RS-positive names — all extended intraday rips, no pullback/base entry: NFLX +4.4%, META +2.2%, MSFT +5.0% (~+10% two-day blowoff), NOW +8.3% (parabolic two-day), HOOD +3.8% (day-2 bounce, no base). Chase = forbidden; fail not-extended + clean-setup.
+- Calmer names — all red, fail the SPY RS gate today: GOOGL −0.7%, AVGO −2.2%, ORCL −1.4%, JPM −1.6%, GE −0.8%.
+- Book is ~27% cybersecurity (PANW+CRWD); any 3rd position must diversify. No clean non-cyber, non-extended RS leader with a proper setup → **NO TRADE** (disciplined, not reflexive).
+
+**Constraints:** 0/3 daily new-position budget used · 2/4 slots filled · 2 free · no unsettled cash. Exits remain risk-stops only (PANW < 282, CRWD < 665).
+
+**Benchmark:** strategy **+0.56%** vs QQQ buy-and-hold **−0.27%** (QQQ 713.65 on 6/23 → 711.73). Strategy **ahead** by ~0.83 pts.
+
+`Day 3 - $100.56 - up 0.56% from baseline.`
