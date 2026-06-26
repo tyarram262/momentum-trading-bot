@@ -166,3 +166,41 @@ Book is ~27% cyber (PANW+CRWD); any 3rd must diversify, but no clean non-cyber R
 **Benchmark:** strategy **+0.56%** vs QQQ buy-and-hold **−0.27%** (QQQ 713.65 on 6/23 → 711.73). Strategy **ahead** by ~0.83 pts.
 
 `Day 3 - $100.56 - up 0.56% from baseline.`
+
+---
+
+## Run 6 — ~14:56 ET (18:56 UTC), near the close — HOLD ×2, NO new buy (FULLY DEFENSIVE)
+
+### Live account (reconciled — broker wins)
+- Total value **$100.43**; cash **$73.00**; settled buying power **$73.00**; equity ~$27.43.
+- Positions: PANW 0.052115 sh @ $287.83; CRWD 0.017391 sh @ $690.01. Matches state.json — no drift.
+- Orders today: none. **0 of 3 daily new-position budget used.**
+
+### Regime check — CLEARLY WEAK / RISK-OFF (weakening into the close)
+| Index | Last | Δ vs prev close |
+|-------|------|------|
+| SPY | 731.86 | **−0.33%** |
+| QQQ | 708.85 | **−1.05%** |
+| XLK | 181.38 | **−1.73%** |
+| SMH | 611.87 | **−3.93%** |
+| VIX | 19.08 | calm but tech breaking |
+
+Tape deteriorated through the afternoon: QQQ slid from −0.65% (Run 5) to −1.05%, XLK to −1.73%, and semis (SMH) extended their slide to −3.93% — a 4th straight down day post-MU. Breadth in tech is poor and the index is heading into the close on its lows. VIX stays calm (~19) but the tech complex is clearly under distribution. Per the regime rule, a clearly-weak tape = **no new risk**. Buying a weakening close on a broad tech breakdown is poor entry timing regardless of candidate quality.
+
+### Existing positions — both HOLD (RS gates clear, above invalidation, green on a red tape)
+- **PANW** — last **$297.44**, **+1.48% on day** (green while SPY/QQQ are red = leading). +3.34% vs $287.83 entry, far above the **282** stop. RS_20 ~**1.19** ((297.44/257.77)/(731.86/754.60)), RS_60 ~**1.66**. Pulled back modestly from the ~300 midday highs but trend + RS fully intact. **HOLD** — sell below 282.
+- **CRWD** — last **$686.21**, **+1.11% on day**, −0.55% vs $690.01 entry; far above the **665** base low. RS_20 ~**1.05** ((686.21/671.00)/0.970), RS_60 ~**1.56**. 4-for-1 split effective 7/2. **HOLD** — sell below 665.
+
+Both leaders are green against a red tape — relative strength confirmed intraday. Neither is near a trim trigger (PANW eased off the 302 target rather than tagging-and-stalling; CRWD mid-base). No exit warranted.
+
+### Scan / candidates — NO new buy
+No change from the pattern that has held all day, and the tape is now worse. Every RS-positive large-cap remains an extended intraday rip (chase) or a downtrend dead-cat that fails RS_60; calmer names are red and fail the SPY RS gate. With the book already ~27% cybersecurity, any 3rd position must diversify, and no clean, non-extended, non-cyber RS leader has surfaced at any point today. Into a weakening risk-off close, the correct call is to add nothing and protect capital.
+
+**Decision: NO new buy. HOLD PANW + CRWD.** 0/3 daily buys used; 2/4 slots filled; 2 free; $73 settled BP.
+
+### Benchmark
+- QQQ baseline 713.65 (6/23) → 708.85 = **−0.67%**.
+- Strategy $100.00 → $100.43 = **+0.43%**.
+- Strategy **ahead** of QQQ buy-and-hold by ~1.1 pts — both leaders green and leading a soft tape.
+
+**Day 3 — $100.43 — up 0.43% from baseline.**
