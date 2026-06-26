@@ -104,3 +104,40 @@ No candidate clears all entry criteria. The one RS-passing name is breaking down
 **Benchmark:** strategy **+0.71%** ($100.00 → $100.71) vs QQQ buy-and-hold **−0.15%** (713.65 on 6/23 → 712.60). Strategy **ahead** of buy-and-hold.
 
 **Standing: Day 3 — $100.71 — up 0.71% from baseline.**
+
+---
+
+## Run 4 — ~12:56 ET (16:56 UTC) — HOLD ×2, NO new buy (disciplined)
+
+### Live account (reconciled — broker wins)
+- Total value **$100.73**; cash **$73.00**; settled buying power **$73.00**; equity ~$27.74. Matches state.json — no drift.
+- Positions: PANW 0.052115 sh @ $287.83; CRWD 0.017391 sh @ $690.01.
+- Orders today: none. **0 of 3 daily new-position budget used.** 2/4 slots filled; 2 free.
+
+### Regime — BIFURCATED / SOFT (mega-cap software bounce, semis still crashing)
+| Index | Last | Δ vs prev close |
+|-------|------|-----------------|
+| SPY | 734.44 | +0.02% (flat) |
+| QQQ | 713.07 | −0.46% |
+| XLK | 182.39 | −1.18% |
+| SMH | 617.80 | −3.00% (semis crashing 3rd day post-MU) |
+
+VIX ~19 (calm). Tape is soft/bifurcated — SPY flat, QQQ red, semis down hard a third session. A mid-day rotation into mega-cap software is underway (MSFT +4.94%, NOW +8.23%, NFLX +4.87%, META +2.06%, AMZN +2.16%, HOOD +3.96%) but these are extended intraday rips on a flat-SPY day. Not "clearly weak," so not fully defensive — but no clean, non-extended diversifying setup exists.
+
+### Existing positions — HOLD both
+- **PANW** $300.06 (bid 300.11 / ask 300.30, ~0.06% spread — tight). **+2.38% on day** (vs SPY flat — leading), **+4.25% vs entry**. RS ~1.20 / 1.65 (clears gates). Now **past 2R (~299.49)** and just under the 302 target. Still trending and leading, not stalling → **HOLD full**; trim only if it tags 302 / clearly extends and stalls at a future check. YOU are the stop: sell below **282**. Settled (6/24).
+- **CRWD** $695.60 (bid 694.33 / ask 695.38, ~0.15% spread — tight). **+2.50% on day**, **+0.81% vs entry**, far above the 665 invalidation. RS ~1.08 / 1.58 (clears gates). 4-for-1 split effective 7/2. **HOLD**. Sell below **665**. Settled.
+
+### Scan — NO new buy
+Cast a wide net across software/internet/fintech leaders. The green names split into two disqualified buckets:
+- **Downtrend bounces (fail RS):** AMZN +2.16% looked least-extended, but RS_20 = (231.92/274.00)/(734.44/754.60) = **0.87** (down ~15% over 20d vs flat SPY) — fails the 1.02 gate decisively; today is a knife bounce, not leadership. APP / PLTR same pattern (dead-cat in month-long downtrends, fail RS_60).
+- **Extended midday rips (fail not-extended / avoid-midday-chase):** MSFT +4.94%, NOW +8.23%, NFLX +4.87%, META +2.06%, HOOD +3.96% — all big intraday moves on a flat-SPY tape; chasing these violates entry quality, confidence <6.
+- Knives: ANET −4.63% ($157.80), ORCL −1.39%, GOOGL −0.62% (red, fail SPY gate).
+
+Book is ~27% cyber (PANW+CRWD); any 3rd must diversify, but no clean non-cyber RS leader with a non-extended setup is available. Settlement: no unsettled proceeds; exits are risk-stops only (PANW<282, CRWD<665).
+
+### Standing
+- **Strategy +0.73%** (baseline $100.00 → $100.73) vs **QQQ buy-and-hold −0.08%** (713.65 → 713.07). Strategy **ahead**; both leaders green and leading the tape.
+- 0/3 daily buys used; 2/4 slots; 2 free; $73 settled BP.
+
+`Day 3 - $100.73 - up 0.73% from baseline.`
