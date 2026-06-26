@@ -80,3 +80,27 @@ No candidate clears all entry criteria. The one RS-passing name is breaking down
 - **Strategy ahead of buy-and-hold** — both leaders green and outperforming.
 
 `Day 3 - $100.63 - up 0.63% from baseline.`
+
+---
+
+## Run 3 — 2026-06-26 ~15:35 UTC (~11:35 ET) — NO NEW BUY, HOLD ×2
+
+**Account:** total $100.71 | cash $73.00 | settled BP $73.00 | equity ~$27.71 (PANW ~$15.59 + CRWD ~$12.12). Live reconciled — matches state. 0/3 daily buys used; 2/4 slots filled.
+
+**Regime:** SPY +0.05% (734.67) · QQQ −0.53% (712.60) · XLK −1.36% (182.06) · SMH −3.35% (615.57) · VIX **18.92** (calm). Same **bifurcation** as Run 2, persisting: SPY flat, mega-cap tech soft, semis crashing a 2nd day after MU's blowoff. High-beta software/AI/fintech bouncing hard but as an intraday dispersion rip, not a broad healthy advance. NOT fully defensive (VIX calm, SPY flat, breadth not collapsing) but NOT cleanly supportive either → high bar for new risk.
+
+**Existing positions (reviewed first, fresh quotes + RS from bars):**
+- **PANW** $299.085, **+2.05% day**, +3.91% vs 287.83 entry. RS_20 **1.19**, RS_60 **1.65**. Spread 0.07% (tight). Far above 282 invalidation; now **at 2R ≈ 299.49** just under 302 target. Leader, trend+RS intact → **HOLD full**. Trim trigger armed: a tag of 302 or a clear stall past 2R at a future check = trim into strength. Trailing mental invalidation up toward ~292; hard stop 282.
+- **CRWD** $696.87, **+2.69% day**, +0.99% vs 690.01 entry, now **settled**. RS_20 **1.07**, RS_60 **1.58**. Spread 0.14% (tight). Far above 665 invalidation. Strong Q1 + raised guide; 4:1 split 7/2 → **HOLD**. Stop 665 (remaining downside ≈ $0.55 on the position).
+
+**Scan / candidates (cast wide; computed RS from real bars):**
+- **APP** $478.33 (+7.27%) — **REJECT.** Downtrend knife: 613→446 (−27%) over a month, today a dead-cat bounce off a 418 capitulation low. Fails RS_60 + "avoid chasing big gaps."
+- **PLTR** $113.51 (+5.82%) — **REJECT.** Downtrend knife: 160→107 (−33%) over a month; today a dead-cat bounce within a clear downtrend. Fails RS_60.
+- **HOOD** $98.05 (+4.90%) — closest call. **The only uptrend name** (74→110, +49%, then −15% pullback to 92.8). RS_20 ~1.19 (passes), RS_60 strong. BUT this is **day-1 of a bounce off a sharp pullback, +4.9% intraday with no confirmed higher-low base** — buying it = chasing a midday move in the highest-beta name on a soft/bifurcated tape. R/R ~2:1 to 110 exists, but the entry quality fails "not badly extended / avoid overextended midday moves," and conviction is **~5/10 (< 6 → NO TRADE)**.
+- **ANET** $158.22 (−4.37%) — still a knife, breaking down. NET flat (cyber anyway). AVGO/NVDA/ORCL/JPM/GE/GEV all red.
+
+**Decision: NO new buy (disciplined, specific disqualifiers — not a reflex).** Both holdings are working (green, leading, passing gates, above invalidation), and the only RS-passing candidates are extended intraday rips / downtrend knives with no clean base. Book is already 27% cyber, so any 3rd must diversify — and no clean non-cyber pullback/base is available today. HOLD PANW + CRWD.
+
+**Benchmark:** strategy **+0.71%** ($100.00 → $100.71) vs QQQ buy-and-hold **−0.15%** (713.65 on 6/23 → 712.60). Strategy **ahead** of buy-and-hold.
+
+**Standing: Day 3 — $100.71 — up 0.71% from baseline.**
