@@ -204,3 +204,49 @@ No change from the pattern that has held all day, and the tape is now worse. Eve
 - Strategy **ahead** of QQQ buy-and-hold by ~1.1 pts — both leaders green and leading a soft tape.
 
 **Day 3 — $100.43 — up 0.43% from baseline.**
+
+---
+
+## Run 7 — ~15:56 ET (19:56 UTC), EOD / ~4 min to close — HOLD ×2, NO new buy (FULLY DEFENSIVE) — stops raised
+
+### Live account (reconciled — broker wins)
+- Total value **$101.10**; cash **$73.00**; settled buying power **$73.00**; equity ~$28.10 (PANW ~$15.90 + CRWD ~$12.20). Matches state.json — no drift.
+- Positions: PANW 0.052115 sh @ $287.83; CRWD 0.017391 sh @ $690.01.
+- Orders today: none. **0 of 3 daily new-position budget used.** 2/4 slots filled; 2 free.
+
+### Regime check — TECH RISK-OFF (broad market flat, tech weak) into the bell
+| Index | Last | Δ vs prev close |
+|-------|------|------|
+| SPY | 733.10 | −0.16% (~flat) |
+| QQQ | 708.71 | **−1.07%** |
+| XLK | 181.71 | **−1.55%** |
+| SMH | 609.80 | **−4.25%** (semis 4th straight day down post-MU) |
+| VIX | ~19 | calm |
+
+Broad market (SPY) closed roughly flat, but the **tech complex stayed clearly weak** — QQQ −1.07%, XLK −1.55%, and semis down a brutal −4.25% for a 4th straight session. This is a tech-specific risk-off close. Per the regime rule, a clearly-weak tech tape = **no new risk**; placing a fractional market buy in the final minutes into a tech breakdown is poor entry timing regardless of candidate quality.
+
+### Existing positions — both HOLD (RS gates clear + strengthening, far above invalidation, ripping into the close)
+- **PANW** — last **$305.13** (bid 305.08 / ask 305.20, ~0.04% spread). **+4.11% on day** (green and *leading hard* while QQQ −1.07%), **+6.01% vs $287.83 entry**. **Blew through the $302 target** into new recent highs. RS_20 ~**1.22** ((305.13/257.77)/(733.10/754.60)), RS_60 ~**1.69** ((305.13/160.32)/(733.10/650.34)) — both gates clear and *strengthening*. Exit rule = hold winners while trend + RS + thesis intact → **HOLD full**, do not sell a strong-trending leader at its first target on a day it shows exceptional RS. **Raised invalidation 282 → 293** (yesterday's close / today's breakout base — a real structural level; below it the breakout fails), protecting the now-larger gain without choking on normal noise. New target **312**. Dollar downside to the 293 stop ≈ $0.63 on the position. Settled (6/24).
+- **CRWD** — last **$701.35** (bid 701.19 / ask 701.71, ~0.07% spread). **+3.35% on day**, **+1.64% vs $690.01 entry**, back above cost. RS_20 ~**1.08** ((701.35/671.00)/0.9715), RS_60 ~**1.59** ((701.35/390.41)/(733.10/650.34)) — both clear. **Raised invalidation 665 → 680** (below today's move, above the 665 base). Target ~740 then ATH ~782. 4-for-1 split effective 7/2. **HOLD** — sell below 680.
+
+Both leaders ripped into a red-tech close — relative strength confirmed and strengthening. No exit triggered; stops raised to lock in gains on a multi-day hold where I am the only stop and checks are hourly.
+
+### Scan / candidates — NO new buy
+No change from the pattern that held across all 7 runs today, and the tech tape is weak into the bell. Every RS-positive large-cap was either an extended intraday rip (chase — MSFT/NOW/NFLX/META/HOOD) or a downtrend dead-cat that fails RS_60 (APP/PLTR/AMZN); calmer names stayed red and failed the SPY RS gate (GOOGL/AVGO/ORCL/JPM/GE); the one trailing-RS-passing name (ANET) was a failed-breakout knife all day. With the book already ~28% cybersecurity, any 3rd position must diversify — and **no clean, non-extended, non-cyber RS leader surfaced at any point today.** Into a weak tech close, the correct call is to add nothing and protect capital.
+
+**Decision: NO new buy. HOLD PANW + CRWD (stops raised).** 0/3 daily buys used; 2/4 slots filled; 2 free; $73 settled BP. Settlement: no unsettled proceeds; exits are risk-stops only (PANW < 293, CRWD < 680).
+
+### Benchmark
+- QQQ baseline 713.65 (6/23) → 708.71 = **−0.69%**.
+- Strategy $100.00 → $101.10 = **+1.10%** (the day's high-water mark — both leaders carried the book into the close).
+- Strategy **ahead** of QQQ buy-and-hold by **~1.8 pts**. The cash cushion (~72%) plus two resilient cyber leaders both green and leading a risk-off tech tape combined to beat buy-and-hold across the window.
+
+**Day 3 — $101.10 — up 1.10% from baseline.**
+
+---
+
+## Day 3 EOD summary
+- **Closed +1.10%** ($100 baseline → $101.10) vs **QQQ buy-and-hold −0.69%** → **ahead ~1.8 pts.**
+- **0 trades across all 7 runs** — disciplined NO TRADE every run. The book's two cyber leaders (PANW, CRWD) did all the work, both finishing green and leading a tech tape that was risk-off most of the day (semis −4% for a 4th straight session post-MU).
+- No clean, non-extended, non-cyber RS leader ever surfaced to diversify the ~28%-cyber book into a 3rd position. Every RS-passing candidate was either an extended midday rip or a downtrend knife.
+- Stops raised into the close to protect gains: PANW 282 → 293, CRWD 665 → 680. Both remain multi-day holds; I am the only stop (hourly checks, fractional positions can't rest a stop).
