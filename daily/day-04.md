@@ -272,3 +272,22 @@ The tape ripped further today (SMH +3.31%), making leaders MORE extended, not le
 - QQQ baseline 713.65 (6/23) → **723.66** = **+1.40%**. Strategy $100 → **$103.27 = +3.27%**. **Strategy ahead of QQQ buy-and-hold by ~1.87 points.** Edge source unchanged: two correlated cyber leaders riding sector momentum, concentration managed via the 320/718 ratcheted stops.
 
 **Standing: Day 4 — $103.27 — up 3.27% from $100.00 baseline.**
+
+## Run 7 — 19:56 UTC (~15:56 ET — EOD, HOLD ×2, PANW stop ratcheted 320→321, NO new buy)
+
+### Account / reconciliation
+- Total value **$103.19** (cash $73.00 + equity $30.19). Buying power **$73.00, fully settled**. LIVE wins: matches state (PANW 0.052115 @ 287.83; CRWD 0.017391 @ 690.01). **0/3 daily buys used**; 2/4 slots; 2 free. No drift.
+
+### Market regime — RISK-ON (held into the close)
+- SPY **+1.57%** (740.43), QQQ **+2.36%** (723.18), XLK **+2.23%** (185.14), SMH **+3.09%** (630.51). VIX sub-18. Semis-led risk-on tape held into the close — supportive but leaders MORE extended after a full green session.
+
+### Positions — HOLD ×2
+- **PANW** last **331.78** (bid 331.80/ask 331.91, ~0.03% spread — tight). **+15.3% vs entry 287.82**, fresh intraday ATH (> Run6 331.245). RS gates clear, leadership intact, thesis (AI-cybersecurity/firewall demand) intact, no earnings in next 5d. **HOLD full.** Stop **RATCHETED 320 → 321** on the marginal new higher-high (sits below today's gap base ~323, ~3.3% under price; UP only). Locked gain at stop ≈ +$1.73/sh; dollar downside from here to stop ≈ $0.56 total.
+- **CRWD** last **742.81** (bid 742.76/ask 743.10, ~0.05% spread — tight). **+7.6% vs entry 690.01**, holding ATH breakout. RS gates clear, thesis intact, no earnings in next 5d. **HOLD full.** Stop **HELD 718** — 742.81 below the Run-2 high 751.31 = no new HH, no ratchet (UP only). Downside to stop ≈ $0.43 total. 4-for-1 split effective 7/2 (not yet applied).
+
+### Decision — NO new buy (disciplined EOD, not reflex)
+- 2 free slots, $73 settled BP, 0/3 daily buys. But the tape is a full +2.36% QQQ green session and we are ~4 minutes from the close: entering now buys the high of the day. Non-cyber leaders re-checked 6× earlier today all failed a gate (RS-passers = extended gap-ups no-chase: GOOGL/ANET/AMD/AMAT/KLAC/LRCX; laggards fail RS_20: NVDA/AVGO/MSFT/ORCL). Nothing improved into the close — leaders only extended further. Concentration: book ~29% cyber, any 3rd must diversify non-cyber. No clean non-extended entry with ≥1.7 R/R and conf ≥6 → **NO TRADE.**
+
+### Standing
+- **Day 4 — $103.19 — up 3.19% from $100.00 baseline.**
+- Benchmark: QQQ baseline 713.65 (6/23) → 723.18 now = **+1.34%**. Strategy **+3.19%** → **AHEAD of QQQ buy-and-hold by ~1.85pts.** Both cyber leaders near ATHs remain the entire source of the edge; concentration risk managed via 321/718 trailing stops.
