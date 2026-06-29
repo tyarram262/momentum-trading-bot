@@ -247,3 +247,28 @@ On a strong semis-led rip, the RS-passing leaders are all either badly-extended 
 - QQQ baseline 713.65 (6/23) → **723.28** = **+1.35%**. Strategy $100 → **$103.08 = +3.08%**. **Strategy ahead of QQQ buy-and-hold by ~1.73 points.** (QQQ's +2.37% rip today narrowed the gap.) Edge source unchanged: two correlated cyber leaders riding sector momentum, concentration managed via the ratcheted stops.
 
 **Standing: Day 4 — $103.08 — up 3.08% from $100.00 baseline.**
+
+---
+
+## Run 6 — 2026-06-29 18:56 UTC (~14:56 ET)
+
+**Reconciliation:** Live broker matches state — PANW 0.052115 sh @ 287.83, CRWD 0.017391 sh @ 690.01, cash $73.00, settled BP $73.00, 0 equity orders today (0/3 daily buys used). Account value **$103.27**.
+
+**Regime — RISK-ON, semis leading:** SPY 740.76 (+1.61%), QQQ 723.66 (+2.43%), XLK 185.31 (+2.32%), SMH 631.83 (+3.31%), VIX sub-18. Supportive tech/semis leadership, healthy tape.
+
+**Positions reviewed first:**
+- **PANW** — last **331.25**, +15.1% vs 287.83 entry, **fresh intraday ATH** (> Run-4 high 329.73). Spread ~0.09% (tight). RS gates clear, leadership intact. New higher-high → **stop RATCHETED 317 → 320** (below today's gap base ~323, ~3.4% under price; up-only). HOLD full. Sell-full trigger < 320. Dollar downside to stop ≈ $0.59; locked gain at stop ≈ +$1.68.
+- **CRWD** — last **746.37**, +8.2% vs 690.01 entry. Below Run-2 high 751.31 → no new higher-high, **stop HELD 718**. RS gates clear. HOLD full. Sell-full trigger < 718. Dollar downside to stop ≈ $0.49; locked gain at stop ≈ +$0.49. (4:1 split effective 7/2, not yet applied.)
+
+**Scan / NO new buy (disciplined, not reflex):** Book is ~29% cybersecurity (PANW + CRWD); any 3rd slot must diversify non-cyber. Re-checked non-cyber leaders with fresh quotes:
+- **Extended gap-ups, no chase:** GOOGL +4.5%, ANET +4.4%, AMD +3.3% (AMD still mid-range of its 503–562 box, NOT pulled back to the 505–510 watch zone → R/R poor, fails 1.7).
+- **RS_20 laggards:** NVDA +0.9%, AVGO +2.6% — trailing SPY over 20 sessions.
+- **Weak/red on a green tape:** MSFT −1.4%, ORCL −0.6%.
+- **No setup:** NOW +1.5%.
+
+The tape ripped further today (SMH +3.31%), making leaders MORE extended, not less. No clean non-extended entry with ≥1.7 R/R and confidence ≥6. No earnings within 7 days for any holding or candidate. **NO TRADE.**
+
+### Benchmark
+- QQQ baseline 713.65 (6/23) → **723.66** = **+1.40%**. Strategy $100 → **$103.27 = +3.27%**. **Strategy ahead of QQQ buy-and-hold by ~1.87 points.** Edge source unchanged: two correlated cyber leaders riding sector momentum, concentration managed via the 320/718 ratcheted stops.
+
+**Standing: Day 4 — $103.27 — up 3.27% from $100.00 baseline.**
