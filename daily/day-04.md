@@ -163,3 +163,41 @@ Same structure as Run 1/2: the RS-passing leaders are extended gap-ups (no-chase
 - **Strategy ahead of QQQ buy-and-hold by ~2.41 points.** (QQQ closed the gap somewhat this run as it rallied +1.68% on the day.) Edge source unchanged: two correlated cyber leaders riding sector momentum, with the 312/718 ratcheted stops managing the concentration risk.
 
 **Standing: Day 4 — $103.08 — up 3.08% from $100.00 baseline.**
+
+---
+
+## Run 4 — 16:57 UTC (~12:57 ET)
+
+### Account / reconciliation
+- Total value **$103.16** (cash $73.00 + equity ~$30.16). Buying power $73.00, fully settled.
+- LIVE positions match state (PANW 0.052115 @ 287.83; CRWD 0.017391 @ 690.01). No new orders → **0/3 daily buys used**. No drift.
+
+### Market regime — RISK-ON (strong)
+- SPY **+1.34%** (738.78), QQQ **+2.02%** (720.82), XLK **+1.79%** (184.35), SMH **+2.79%** (628.66 — semis leading). VIX **17.87** (low, easing further).
+- Strong, broad risk-on with semis out front. Supportive tape → eligible to add a high-quality non-cyber setup if one clears all gates.
+
+### Position review (exit rules + ratchet)
+- **PANW** 329.73, **+14.6% vs entry**, **fresh intraday ATH** (329.73 > Run-2 high 328.37). RS_20 1.199 / RS_60 1.820 — leadership intact. Higher-high prints, so **stop RATCHETED 312 → 317** (below today's gap base ~323 minus the ~$6 original risk unit; ~3.9% under price). HOLD full. Dollar downside to stop ≈ $0.66; locked gain at stop ≈ +$1.52.
+- **CRWD** 746.02, **+8.1% vs entry**. RS_20 1.045 / RS_60 1.682. Last is below the Run-2 high (751.31) and drifting down intraday → **no new higher-high, stop HELD 718** (ratchets up only, never down; already above Friday's 704.84 high). HOLD full. Dollar downside to stop ≈ $0.49; locked gain at stop ≈ +$0.49.
+- No earnings for either in the next 31 days — cushion intact.
+
+### Scan / candidates (computed RS vs SPY; SPY 20d ratio 0.977, 60d 1.128)
+Book is ~29% cyber, so any 3rd slot must diversify away from cyber. Computed RS on 7 non-cyber leaders:
+
+| Ticker | RS_20 | RS_60 | Day | Verdict |
+|---|---|---|---|---|
+| AMD | 1.055 ✓ | 2.24 ✓ | +1.9% | Clean pullback to 503 base, but at 531 it's **mid-range** of the 503–562 consolidation → stop <500 risks $31.6 vs only $30 to prior high 562 = **R/R ~0.95, FAILS 1.7 gate**. WATCH for a pullback toward 505–510 (R/R turns ~3:1). |
+| AMAT | 1.58 ✓ | 1.74 ✓ | **+10.8%** | **Badly extended gap-up — no chase.** |
+| ANET | 1.049 ✓ | 1.161 ✓ | +3.7% | Bouncing off 154–162 base, R/R to prior high 174 only ~1.2, conf <6. |
+| MU | 1.186 ✓ | 2.71 ✓ | −0.7% | RS huge but swings $100–200/day — no definable invalidation at hourly checks. Skip on risk management. |
+| NVDA | 0.94 ✗ | 0.98 | +0.6% | Fails RS_20 (laggard). |
+| AVGO | 0.85 ✗ | — | +1.5% | Fails RS badly. |
+| ORCL | 0.67 ✗ | — | −0.6% | Fails RS badly (broke down from 225). |
+
+### Decision — HOLD ×2, NO new buy (disciplined, not reflex)
+Every RS-passing candidate fails an entry gate: extended (AMAT), mid-range sub-1.7 R/R (AMD, ANET), or untradeably volatile (MU). No clean non-extended entry with ≥1.7 R/R and confidence ≥6. The two cyber leaders are working winners carrying the book — the best use of capital — managed by the 317/718 ratcheted stops. **0/3 daily buys used; 2/4 slots; 2 free; $73 settled BP.**
+
+### Benchmark
+- QQQ baseline 713.65 (6/23) → 720.82 = **+1.00%**. Strategy $100 → **$103.16 = +3.16%**. **Strategy ahead of QQQ buy-and-hold by ~2.16 points.** Edge source unchanged: two correlated cyber leaders riding sector momentum, concentration managed via the ratcheted stops.
+
+**Standing: Day 4 — $103.16 — up 3.16% from $100.00 baseline.**
