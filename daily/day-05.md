@@ -1,6 +1,6 @@
 # Day 5 — 2026-06-30
 
-Standing: **Day 5 — $104.04 — up 4.04% from baseline.**
+Standing: **Day 5 — $104.00 — up 4.00% from baseline.** (latest: Run 4)
 
 ## Run 1 — 13:57 UTC (~9:57 ET)
 
@@ -89,3 +89,31 @@ Surveyed 10 non-cyber large-cap leaders (book holds the max 2 correlated cyber, 
 ### Decision & Benchmark
 - **HOLD PANW + CRWD in full**; stops HELD 330 / 735. **NO new position.** 2/4 slots filled, 2 free; 0/3 daily buys used; $73 settled BP held for a qualifying non-cyber pullback.
 - Strategy: $100 → **$103.74 = +3.74%**. QQQ buy-and-hold: 713.65 → 734.48 = **+2.92%** (QQQ rallied hard today, narrowing the gap). **Strategy ahead ~0.82 pts.** Edge remains the two cyber leaders; trailing stops (330/735) convert the concentrated gains into a durable edge if the tape turns.
+
+## Run 4 — 16:56 UTC (~12:56 ET)
+
+### Account (live, reconciled — broker wins)
+- Total value **$104.00** | Cash **$73.00** | Settled BP **$73.00** | Equity **$31.00**.
+- Positions: PANW 0.052115 sh @ 287.83, CRWD 0.017391 sh @ 690.01 — match state.json, no drift. Orders today: **0** (0/3 daily budget).
+
+### Regime — RISK-ON, broad strength (supportive)
+- SPY 746.89 **+0.79%** | QQQ 736.06 **+1.65%** | XLK 189.81 **+2.37%** | SMH 652.85 **+3.30%** (semis ripping) | AMD +7.6% intraday.
+- Tape strengthened further into early afternoon — broad tech/semi leadership, fresh highs across the board. Supportive of holding leaders; but intraday RS-leaders now badly extended (chase risk for new entries).
+
+### Existing positions — reviewed FIRST (HOLD ×2; CRWD trail RAISED on fresh HH)
+**PANW** — last **$339.82** (+2.36% on day vs 332 close), **+18.1% vs 287.83 entry**. Below Run 1's 341.62 intraday high → no new HH, no basis to raise trail. RS_20 = (339.82/300.48 effective)/(746.89/758.54) ≈ **1.15** ✓; RS_60 ≈ **1.84** ✓ — clear leader. Spread 339.77/339.86 ≈ 0.03% (tight). **HOLD full. Stop HELD 330** (up-only). Dollar downside from here to stop ≈ **$0.51**; locked gain at stop ≈ +$2.20.
+**CRWD** — last **$764.44** (+2.90% on day vs 742.91 close), **+10.8% vs 690.01 entry**, **fresh higher-high above Run 1's 761.43** → basis to ratchet the trail up. RS_60 ≈ **1.69** ✓ (clear leader); RS_20 0.985 remains the 06-01 spike-to-782 base artifact, not a real break — fresh-HH uptrend intact. Spread 764.45/764.68 ≈ 0.03% (tight). **HOLD full. Stop RATCHETED 735 → 742** (at yesterday's 742.91 close pivot, ~2.9% under price; up-only, never lowered). Locks **+$0.91** vs entry. Dollar downside from here to stop ≈ **$0.39**. 4:1 split effective 7/2 (not yet applied).
+*YOU are the stop: sell full at a check if PANW < 330 or CRWD < 742.*
+
+### Scan / research — NO new buy (disciplined, not reflex)
+Computed RS_20/RS_60 (vs SPY, 60 real daily bars) for 8 non-cyber leaders (book holds the max 2 correlated cyber, so any 3rd must diversify away from cyber):
+- **Pass BOTH RS gates but blatantly extended mid-rip (no-chase):** AMD RS20 **1.14**/RS60 **2.42** but **+7.6%** today; ANET RS20 **1.08**/RS60 **1.20** but **+3.8%** today. Entering either = buying the high of a vertical move — fails the "not extended" criterion.
+- **Fail RS_20 gate:** NVDA RS20 **0.951** (+1.7%, extended anyway).
+- **Red on a green tape = failing relative strength today:** META **−0.7%**, ORCL **−0.5%**.
+- **Split-artifact / unreliable RS_20** (bars show 15–35% discontinuities vs live quote → corrupt 20d ratio): AVGO, MSFT, ORCL — and none shows a clean non-extended setup regardless (AVGO +0.9%, MSFT +1.2%, GOOGL +1.1% all just riding the tape, no pullback/invalidation).
+- Net: the only names passing both RS gates are ripping verticals (un-enterable); everything non-extended lacks RS. No setup combines a non-extended entry + R/R ≥ 1.7 + conf ≥ 6. → **NO TRADE.**
+- PANW/CRWD clear of earnings within 5 trading days (gate clear for holds).
+
+### Decision & Benchmark
+- **HOLD PANW + CRWD in full**; PANW stop HELD 330, CRWD stop ratcheted 735 → **742**. **NO new position.** 2/4 slots filled, 2 free; 0/3 daily buys used; $73 settled BP held for a qualifying non-cyber pullback.
+- Strategy: $100 → **$104.00 = +4.00%**. QQQ buy-and-hold: 713.65 → 736.06 = **+3.14%**. **Strategy ahead ~0.86 pts.** Edge remains the two cyber leaders at fresh highs; the 330/742 trailing stops convert the concentrated gains into a durable edge if the tape turns.
