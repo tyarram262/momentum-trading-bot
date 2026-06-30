@@ -1,6 +1,6 @@
 # Day 5 — 2026-06-30
 
-Standing: **Day 5 — $104.04 — up 4.04% from baseline.** (latest: Run 6)
+Standing: **Day 5 — $104.04 — up 4.04% from baseline.** (latest: Run 7 / EOD)
 
 ## Run 1 — 13:57 UTC (~9:57 ET)
 
@@ -171,6 +171,38 @@ No RS-strong leader is resting in a non-extended pullback with a clean invalidat
 
 ### Standing
 - Strategy **+4.04%** ($104.04) vs QQQ buy-and-hold **+3.20%** (QQQ 713.65 → 736.45). **Ahead ~0.84 pts.**
+- 0/3 daily buys; 2/4 slots; 2 free; $73 settled BP. Stops: PANW < 330, CRWD < 742 — YOU are the stop.
+
+**Day 5 — $104.04 — up 4.04% from baseline.**
+
+---
+
+## Run 7 / EOD — 19:56 UTC (~15:56 ET, final hour)
+
+### Account (live, reconciled — broker wins)
+- Total value **$104.04** | Cash **$73.00** | Settled BP **$73.00** | Equity **$31.04**
+- Positions: PANW 0.052115 sh @ 287.83, CRWD 0.017391 sh @ 690.01 — match state.json. No drift.
+- Orders today: **0** (0/3 daily new-position budget used).
+
+### Regime — RISK-ON (most extended of the day into the close)
+- SPY 747.48 **+0.87%** | QQQ 737.20 **+1.81%** | XLK 190.73 **+2.87%** | SMH 658.06 **+4.13%** (semis hottest of day) | VIX ~16.6 (calm).
+- Broad strength, healthy breadth, low vol — tape pressed to its highs into the final hour. Supportive of holding leaders. Leadership groups (semis especially) are now badly extended; chasing late-day strength is exactly the overextended-midday entry the mandate forbids.
+
+### Positions reviewed (EXIT RULES applied, fresh quotes + trail re-derived)
+- **PANW** — last **$340.67** (bid 340.62 / ask 340.76, ~0.04% spread — tight). **+18.4% vs 287.83 entry.** Below Run 1's 341.62 intraday high → **no fresh higher-high, trail HELD at 330** (up-only; never lowered). RS clear leader (RS_20 ~1.15 / RS_60 ~1.84). AI-cyber platformization thesis intact. **HOLD full.** Dollar downside to stop ≈ **$0.56**; locked gain at stop ≈ **+$2.20**. No earnings in next 5 days.
+- **CRWD** — last **$763.06** (bid 762.87 / ask 763.25, ~0.05% spread — tight). **+10.6% vs 690.01 entry.** Below Run 4's 764.44 fresh HH → **no new HH, trail HELD at 742** (up-only). RS_60 ~1.69 leader; RS_20 ~0.985 = known 06-01 spike-to-782 base artifact, not a real break. **HOLD full.** Dollar downside to stop ≈ **$0.37**; locked gain at stop ≈ **+$0.90**. 4-for-1 split effective 7/2 (not yet applied). No earnings in next 5 days.
+*YOU are the stop: sell full at a check if PANW < 330 or CRWD < 742.*
+
+### Scan / research — NO new buy (disciplined, not reflex — 7th confirmation of the same bifurcation)
+Pulled live quotes on 10 large-cap leaders into the close. Universe bifurcated exactly as Runs 3–6, now most pronounced as semis peak:
+- **Ripping verticals (extended intraday — no-chase, fail "not badly extended"):** AMD **+8.18%**, ANET **+4.03%**, NVDA **+2.51%** (ATH), AVGO **+1.54%**.
+- **Red/flat on a +1.8% QQQ tape (failing relative strength — laggards, not constructive pullbacks):** META **+0.22%**, NOW **−0.81%**, AMZN **−0.74%**, ORCL **−0.49%**.
+- **Riding the tape, no setup/invalidation:** MSFT **+1.24%**, GOOGL **+1.20%**.
+No RS-strong leader is resting in a non-extended pullback with a clean invalidation and R/R ≥ 1.7, conf ≥ 6. Book already holds the max 2 correlated cyber (PANW+CRWD) so any 3rd must be non-cyber — none qualify. Entering a brand-new fractional position in the final minutes at the high of a vertical semi day is precisely the chase the mandate forbids. **NO TRADE.**
+
+### EOD Standing — Day 5 close
+- Strategy **+4.04%** ($104.04) vs QQQ buy-and-hold **+3.30%** (QQQ 713.65 → 737.20). **Ahead ~0.74 pts.**
+- Day 5: **0 trades across 7 runs.** Both cyber leaders (PANW +18.4%, CRWD +10.6%) held in full; stops finished at 330 / 742, both locked in profit. Disciplined NO-TRADE all day — a one-directional risk-on tape that bifurcated into extended leaders (no-chase) vs red laggards (no RS), leaving no clean non-extended entry. Strategy stayed ahead of QQQ buy-and-hold the entire session.
 - 0/3 daily buys; 2/4 slots; 2 free; $73 settled BP. Stops: PANW < 330, CRWD < 742 — YOU are the stop.
 
 **Day 5 — $104.04 — up 4.04% from baseline.**
