@@ -1,6 +1,6 @@
 # Day 5 — 2026-06-30
 
-Standing: **Day 5 — $104.00 — up 4.00% from baseline.** (latest: Run 4)
+Standing: **Day 5 — $103.91 — up 3.91% from baseline.** (latest: Run 5)
 
 ## Run 1 — 13:57 UTC (~9:57 ET)
 
@@ -117,3 +117,31 @@ Computed RS_20/RS_60 (vs SPY, 60 real daily bars) for 8 non-cyber leaders (book 
 ### Decision & Benchmark
 - **HOLD PANW + CRWD in full**; PANW stop HELD 330, CRWD stop ratcheted 735 → **742**. **NO new position.** 2/4 slots filled, 2 free; 0/3 daily buys used; $73 settled BP held for a qualifying non-cyber pullback.
 - Strategy: $100 → **$104.00 = +4.00%**. QQQ buy-and-hold: 713.65 → 736.06 = **+3.14%**. **Strategy ahead ~0.86 pts.** Edge remains the two cyber leaders at fresh highs; the 330/742 trailing stops convert the concentrated gains into a durable edge if the tape turns.
+
+## Run 5 — 17:56 UTC (~13:56 ET)
+
+### Account (live, reconciled — broker wins)
+- Total value **$103.91** | Cash **$73.00** | Settled BP **$73.00** | Equity **$30.91**.
+- Positions: PANW 0.052115 sh @ 287.83, CRWD 0.017391 sh @ 690.01 — both match state.json. No drift.
+- Orders today: **0** (0/3 daily new-position budget used). 2/4 slots; 2 free.
+
+### Regime — RISK-ON (supportive), semis ripping into afternoon
+- SPY 746.46 **+0.74%** | QQQ 735.83 **+1.62%** | XLK 189.97 **+2.46%** | SMH 654.36 **+3.54%** | VIX **16.6** (calm, lower than Run4's 17.09).
+- Broad strength, healthy breadth, low vol. Supportive of holding leaders. But the afternoon move is now extended in the leadership groups (semis up big) — chasing late-day strength is precisely the overextended-midday entry the mandate forbids.
+
+### Positions reviewed (EXIT RULES applied, fresh quotes + trail re-derived)
+- **PANW** — last **$339.97** (bid 339.78 / ask 340.15, ~0.11% spread — tight enough). +18.1% vs entry. Run1's 341.62 remains the intraday high → **no fresh higher-high, trail HELD at 330** (up-only; never lowered). RS clear leader (RS_20 ~1.15 / RS_60 ~1.84, unchanged basis). Thesis (AI-cyber platformization) intact. **HOLD full.** Dollar downside to stop ≈ $0.52; locked gain at stop ≈ +$2.20. No earnings in next 5 days.
+- **CRWD** — last **$759.50** (bid 759.35 / ask 759.65, ~0.04% spread — tight). +10.1% vs entry. Below Run4's 764.44 fresh HH → **no new HH this run, trail HELD at 742** (up-only). RS_60 ~1.69 leader; RS_20 0.985 = known 06-01 spike base artifact, not a real break. **HOLD full.** Dollar downside to stop ≈ $0.30; locked gain at stop ≈ +$0.90. 4-for-1 split effective 7/2 (not yet applied). No earnings in next 5 days.
+
+### Scan — NO new buy (disciplined, not reflex)
+Pulled live quotes on 15 large-cap leaders. Universe is bifurcated exactly as Runs 3–4 documented with full 60-bar RS math:
+- **Red/weak on a +1.6% QQQ day (failing relative strength — laggards, not constructive pullbacks):** META −0.41%, ORCL −0.81%, NOW −2.17%, AMZN −0.67%, NFLX −1.75%, CRM −1.17%. A name red on a strongly green tape is showing weakness, not basing.
+- **Ripping verticals (extended intraday — no-chase, fail "not badly extended"):** AMD +7.37%, ANET +4.25%, TSM +3.56%, AAPL +2.34%, NVDA +1.73%.
+- **Riding the tape, no setup/invalidation:** MSFT +0.75%, GOOGL +0.77%, AVGO +0.96%, MU +0.96%.
+No RS-strong leader is resting in a non-extended pullback with a clean invalidation and R/R ≥ 1.7, conf ≥ 6. Book already holds the max 2 correlated cyber (PANW+CRWD) so any 3rd must be non-cyber — and none qualify. **NO TRADE.**
+
+### Standing
+- Strategy **+3.91%** ($103.91) vs QQQ buy-and-hold **+3.11%** (QQQ 713.65 → 735.83). **Ahead ~0.80 pts.**
+- 0/3 daily buys; 2/4 slots; 2 free; $73 settled BP. Stops: PANW < 330, CRWD < 742 — YOU are the stop.
+
+**Day 5 — $103.91 — up 3.91% from baseline.**
