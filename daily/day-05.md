@@ -40,3 +40,25 @@ Gap-up open on a +0.91% QQQ day — entering here buys the high of the day. Dive
 - Strategy: $100 → **$104.04 = +4.04%** since baseline.
 - QQQ buy-and-hold: 713.65 (6/23 baseline) → 730.675 = **+2.39%**.
 - **Strategy ahead of buy-and-hold by ~1.65 pts.** The entire edge is the two cyber leaders (PANW, CRWD) at fresh highs; risk is contained by the 330/735 trailing stops. Both names individually are far outrunning QQQ — the strategy's outperformance is concentrated, and the trailing stops are what convert that into a durable edge if the tape turns.
+
+## Run 2 — 14:56 UTC (~10:56 ET)
+
+### Account (live, reconciled — broker wins)
+- Total value **$103.68** | Cash **$73.00** | Settled BP **$73.00** | Equity **$30.68**.
+- Positions: PANW 0.052115 sh @ 287.83, CRWD 0.017391 sh @ 690.01 — match state.json, no drift. Orders today: **0** (0/3 daily budget).
+
+### Regime — RISK-ON (supportive, holding)
+- SPY 743.45 **+0.33%** | QQQ 730.83 **+0.93%** | XLK 188.48 **+1.66%** | SMH 649.38 **+2.75%** (semis still leading) | VIX **17.09** (calm).
+- Same risk-on tape as Run 1, semis a touch stronger. Supportive of holding leaders.
+
+### Existing positions — reviewed FIRST (HOLD ×2, stops HELD)
+**PANW** — last **$336.51** (+1.36% on day vs 332 close), **+16.9% vs 287.83 entry**. Pulled back ~$5 from Run 1's 341.62 intraday high — no new HH, so no basis to raise the trail. Spread 336.51/336.91 ≈ 0.12% (tight). Well above stop. **HOLD full. Stop HELD 330** (up-only; never lowered). Dollar downside from here to stop ≈ **$0.34**; locked gain at stop ≈ +$2.20.
+**CRWD** — last **$756.13** (+1.78% on day vs 742.91 close), **+9.6% vs 690.01 entry**. Pulled back ~$5 from Run 1's 761.43 — no new HH. Spread 754.62/756.00 ≈ 0.18% (tight). Well above stop. **HOLD full. Stop HELD 735**. Dollar downside from here to stop ≈ **$0.37**; locked gain at stop ≈ +$0.78. RS_60 strong, fresh-HH uptrend intact (RS_20 0.99 still a base artifact, not a real break). 4:1 split effective 7/2 (not yet applied).
+*YOU are the stop: sell full at a check if PANW < 330 or CRWD < 735.*
+
+### Scan / research — NO new buy (disciplined, not reflex)
+Tape unchanged from Run 1 (risk-on, semis +2.75% intraday, leaders gapping/extended = no-chase). Book holds the **max 2 correlated cyber names**, so any 3rd must be non-cyber; on a +0.93% QQQ midday green tape there is no clean non-extended non-cyber pullback offering R/R ≥ 1.7 and confidence ≥ 6. Entering a midday extended move buys the high — exactly what the entry rules say to avoid. → **NO TRADE.** 0/3 daily buys used; 2/4 slots free; $73 settled BP held for a qualifying pullback setup.
+
+### Decision & Benchmark
+- **HOLD PANW + CRWD in full**; stops HELD 330 / 735. **NO new position.**
+- Strategy: $100 → **$103.68 = +3.68%** (down $0.36 from Run 1 as both leaders eased off intraday highs). QQQ buy-and-hold: 713.65 → 730.83 = **+2.41%**. **Strategy ahead ~1.27 pts.**
