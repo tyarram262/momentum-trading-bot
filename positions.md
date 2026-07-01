@@ -1,23 +1,24 @@
-# Open Positions — Day 6 (2026-07-01, Run 6 ~15:56 ET, ~4 min to close) — HOLD ×2; stops HELD 332/748; NO new buy
+# Open Positions — Day 6 (2026-07-01, Run 7 POST-CLOSE ~16:07 ET) — HOLD ×2; PANW stop RATCHETED 332→340.50; CRWD stop HELD 748
 
-Strategy value (pre-deposit book): **$104.88** | Settled buying power: **$73.05** | Cumulative: **+4.88%** vs $100 baseline
-⚠️ Cash shows **$473.05** incl. **$400.00 PENDING deposit (UNSETTLED — not tradable under good-faith rail)**. Total portfolio value $504.88.
-⚠️ **CAPITAL EVENT (Run 5, unchanged Run 6):** pending deposit shrank **$800 → $400** — ~$400 of the ACH was pulled/reversed before settling. External flow, NOT P&L. Settled deployable BP unchanged at $73.05.
+Strategy value (pre-deposit book): **$104.83** | Settled buying power: **$73.05** | Cumulative: **+4.83%** vs $100 baseline
+⚠️ Cash shows **$473.05** incl. **$400.00 PENDING deposit (UNSETTLED — not tradable, good-faith rail)**. Total portfolio value $504.87.
+⚠️ **CAPITAL EVENT (Run 5, unchanged):** pending deposit shrank $800 → $400 before settling. External flow, NOT P&L. Re-base baseline when it settles.
 
-| Ticker | Qty | Entry | Last | Trailed Stop | Target | Size | Unreal P&L | RS_20 | RS_60 |
-|--------|-----|-------|------|--------------|--------|------|-----------|-------|-------|
-| PANW | 0.052115 | 287.82 | 352.53 | **332.00** (HELD) | 360 | $15.00→$18.38 | **+$3.37 (+22.5%)** | 1.20 | 1.92 |
-| CRWD | 0.017391 | 690.01 | 773.08 | **748.00** (HELD) | 800 | $12.00→$13.44 | **+$1.44 (+12.0%)** | 1.02 | 1.70 |
+| Ticker | Qty | Entry | Close 7/1 | Trailed Stop | Target | Size | Unreal P&L | RS_20 | RS_60 |
+|--------|-----|-------|-----------|--------------|--------|------|-----------|-------|-------|
+| PANW | 0.052115 | 287.82 | 352.09 | **340.50** (RAISED from 332) | 360 | $15.00→$18.35 | **+$3.35 (+22.3%, +11.0R)** | 1.2068 | 1.9211 |
+| CRWD | 0.017391 | 690.01 | 772.46 | **748.00** (HELD) | 800 | $12.00→$13.43 | **+$1.43 (+12.0%, +3.3R)** | 1.0233 | 1.7124 |
 
-Equity value: $31.83 | 2/4 slots used | 2 slots free | 0/3 new buys today
+Equity value: $31.78 | 2/4 slots used | 2 slots free | 0/3 new buys today (market now closed)
 
 ## Stop logic (up-only trailing)
-- **PANW** stop HELD at 332.00. Last 352.53; most recent *confirmed* higher-low (06-30 low 327.35) sits below the stop, so the up-only rule keeps it at 332 (no new confirmed higher-low above 332 yet — re-evaluate on Day 7 confirmed daily bars). Dollar downside from last ≈ **$1.07**; stop locks in **+$2.30**. Sell full if PANW < 332.
-- **CRWD** stop HELD at 748.00. Last 773.08; most recent confirmed higher-low (06-30 low 732.00) below the stop → held. Dollar downside ≈ **$0.44**; stop locks in **+$1.01**. Sell full if CRWD < 748. (4:1 split effective 7/2 — post-split ÷4: entry ≈172.50, stop ≈187, target ≈200, qty ×4.)
+- **PANW** stop **RATCHETED 332.00 → 340.50**: 7/1 daily bar confirmed a higher-low at **341.00** (rising session lows 327.35 → 341.00); new stop sits just below it, 1.99R below the 352.09 close. Locks **+$2.75 (+18.3%)**. Sell full if PANW < 340.50.
+- **CRWD** stop **HELD 748.00**: computed 1R-trail from close = 747.45 ≈ current stop; ratcheting under today's low (765.00) would leave only 0.30R of room = noise-level, unacceptable into tomorrow's split. Locks +$1.01. Sell full if CRWD < 748.
+- 🚨 **CRWD 4:1 SPLIT EFFECTIVE 2026-07-02 (tomorrow):** post-split figures — entry ≈ **172.50**, stop **187.00**, target **200.00**, qty ≈ **0.069564**. The ~75% price drop at open is the SPLIT, not a stop hit. Verify via get_equity_positions before any action.
 
 ## Notes
-- ⚠️ **CAPITAL EVENT (Run 5, unchanged):** pending deposit dropped $800 → $400 (~$400 of the ACH pulled before settling). NOT P&L; excluded from cumulative return. Remaining $400 still UNSETTLED, not deployable until it clears (~T+1). Settled deployable BP unchanged at $73.05. Baseline stays $100 until deposit settles, then re-base.
-- Both holdings are cyber (correlated) → book at max 2 correlated names; any 3rd position must be non-cyber.
-- No earnings landmine: PANW reports 2026-08-17, CRWD 2026-08-26 — both far out; holdings governed by exit rules (cushioned).
-- Regime: rotation day-3 into the close, semis crushed hardest (SMH −5.33%, XLK −2.49%, QQQ −1.42%), SPY −0.08% flat, VIX 16.37 calm = orderly, not risk-off. Hostile tape for NEW tech risk.
-- Run 6 = 6th disciplined HOLD/NO-TRADE pass of the day, ~4 min to close; full RS leaderboard to be rebuilt at Day 7 open.
+- Portfolio open risk to trailed stops: **$1.03 = 0.98%** of account (cap 5%) — both stops above entry, book is playing with house money.
+- Both holdings cyber (correlated, at max 2) → any 3rd position must be non-cyber.
+- Earnings far out: PANW 2026-08-17, CRWD 2026-08-26.
+- Regime at close: SPY 745.69 **above** 50DMA 736.61 (supportive) but rotation day-3 out of tech (QQQ −1.53%, XLK −2.56%, SMH −5.46%), VIX ~16.4 calm/orderly. Hostile for new tech entries.
+- Next run (Day 7): rebuild full RS leaderboard; check $400 deposit settlement (re-base if settled); handle CRWD split.

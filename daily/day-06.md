@@ -240,3 +240,36 @@ Tape unchanged from Runs 3–4; same bifurcation persists into the final hour:
 - **AHEAD ~3.16 pts** vs buy-and-hold QQQ over the same window.
 
 **Day 6 — $104.88 — up 4.88% from baseline.**
+
+
+---
+
+## Run 7 — POST-CLOSE reconcile (~16:07 ET, 20:07 UTC)
+
+Market closed at 16:00 ET; this run is manage-only (no entries possible — regular-hours market orders can't fill).
+
+### 1. Reconcile & settlement
+- LIVE: portfolio $504.87 (equity $31.78 at official closes, cash $473.05 incl **$400 pending deposit**), positions match state exactly, **zero orders today** → no orphans to cancel.
+- Derived settled cash: 473.05 − 400.00 = **$73.05**. Deposit unchanged from Run 5's capital event ($800 → $400). No re-base until it settles.
+- Circuit breaker: clear (book +4.83% cumulative; today's equity change positive).
+
+### 2. Regime (computed, official closes)
+- SPY 745.69 (−0.14%) **ABOVE 50DMA 736.61** → supportive umbrella.
+- But QQQ −1.53%, XLK −2.56%, SMH −5.46% → **rotation out of tech, day 3, confirmed at the close**. VIX ~16.4 = calm/orderly, not risk-off.
+
+### 3. Held positions (fresh computed on 85 daily closes each; today's bar now confirmed)
+**PANW** — closed **352.09 +3.25%** (+22.3% from 287.82 entry, **+11.0R** on original $5.82 risk). RS_20 **1.2068** / RS_60 **1.9211** — dominant leader, green again on a red tape.
+- **STOP RATCHETED 332.00 → 340.50** (up-only): today's completed bar put in a confirmed higher-low at **341.00** — the session-low sequence reads 284.28 → 285.27 → 290.00 → 305.33 → 327.35 → **341.00**, a textbook rising-lows staircase. New stop sits just under it, **1.99R below the close** (~1–2R trail per rules). Locks **+$2.75 (+18.3%)** vs +$2.30 before.
+**CRWD** — closed **772.46 +1.22%** (+12.0%, **+3.3R** on original $25.01 risk). RS_20 **1.0233** (above 1.02 gate) / RS_60 **1.7124**.
+- **STOP HELD 748.00**: the computed 1R-trail from the close is **747.45 ≈ 748**, so the stop already sits at the rule distance. Ratcheting under today's 765.00 low would leave **0.30R** of room — noise-level tightness going into tomorrow's split. Locks +$1.01.
+- 🚨 **CRWD 4:1 split effective 7/2 (tomorrow)**: post-split entry ≈172.50, **stop 187.00**, target 200.00, qty ≈0.069564. The ~75% price drop at the open is the SPLIT, not a stop hit — verify via positions before acting.
+- Portfolio open risk to trailed stops: **$1.03 = 0.98%** of account (cap 5%); both stops lock gains.
+
+### 4. Decision — NO NEW BUY
+Market closed. (Tape context anyway: hostile day-3 rotation; 3rd slot must be non-cyber; none cleared gates all day.) 0/3 daily buys used — discipline held across 7 runs.
+
+### 5. Benchmark (official closes)
+- Strategy: $100 → **$104.83** = **+4.83%**.
+- QQQ: 713.65 → 725.146 = **+1.61%**. **AHEAD +3.22 pts.**
+
+**Day 6 — $104.83 — up 4.83% from baseline.**
