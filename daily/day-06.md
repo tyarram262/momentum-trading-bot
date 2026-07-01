@@ -164,3 +164,40 @@ Tape identical to Run 3 (4 min prior). Same bifurcation:
 - **Strategy AHEAD of QQQ by ~2.95 pts.**
 
 **Standing: Day 6 - $104.96 - up 4.96% from baseline (+$800 pending deposit, unsettled, excluded).**
+
+---
+
+## Run 5 — 19:11 UTC (~15:11 ET, late session ~50 min to close) — HOLD ×2, NO NEW BUY
+
+### 1. State & reconciliation — ⚠️ CAPITAL EVENT: pending deposit $800 → $400
+- LIVE broker `get_portfolio`: **total value $504.76**, equity **$31.71**, cash **$473.05**, of which **pending_deposits $400.00**, buying_power $473.05. Positions unchanged: PANW 0.052115 @ 287.83, CRWD 0.017391 @ 690.01. **0 orders today.**
+- **Interpretation:** the pending unsettled deposit shrank from **$800 → $400** (total value dropped ~$400 while equity was ~flat) — i.e. **$400 of the pending ACH was reversed/pulled** before settling. This is an **external capital flow, NOT P&L** — it must not touch the return figure.
+- **Settled deployable buying power is UNCHANGED at $73.05** (473.05 − 400.00 pending = 73.05, same as every prior run today). The remaining $400 is still pending/unsettled → not tradable under the cash-account good-faith rail. Baseline stays $100 (no re-base until the deposit actually settles; if/when the remaining $400 settles, re-base then). Flagged to owner.
+
+### 2. Regime check
+- SPY 747.54 **+0.10%** | QQQ 728.30 **−1.10%** | XLK 186.70 **−2.00%** | SMH 626.12 **−4.54%** | **VIX 16.27 (CALM)**.
+- Read: **rotation day-3, late session** — same picture that has held all day: SPY flat/green, tech soft, semis crushed (SMH −4.54%), VIX calm = **orderly rotation OUT of tech/semis, NOT risk-off**. A genuinely hostile backdrop for initiating NEW tech-momentum risk; not forced fully defensive (holdings green).
+
+### 3. Position review (EXIT RULES applied with fresh data + daily bars)
+**PANW** — last 351.995, **+22.3%** from 287.82.
+- RS_20 = (352.00/297.18)/(747.54/759.57) = **1.20** ✓ | RS_60 = (352.00/161.95)/(747.54/658.93) = **1.92** ✓ — dominant leader.
+- GREEN on a red tape; near intraday high. Most recent *confirmed* higher-low = 06-30 low **327.35**, which sits BELOW the current stop → up-only rule keeps stop **HELD at 332** (no new confirmed higher-low above 332 has formed; raising into the intraday high with no structural support would be whipsaw-prone). Downside ≈ **$1.04**; stop locks **+$2.30**. Thesis intact → **HOLD full.**
+
+**CRWD** — last 768.56, **+11.4%** from 690.01.
+- RS_20 = (768.56/768.95)/(747.54/759.57) = **1.02** ✓ (at gate, flattening but intact) | RS_60 = (768.56/398.61)/1.1361 = **1.70** ✓.
+- GREEN on a red tape; most recent confirmed higher-low = 06-30 low **732.00**, below the stop → stop **HELD at 748**. Downside ≈ **$0.36**; locks **+$1.01**. Thesis intact → **HOLD full.** (4:1 split effective 7/2 — post-split ÷4: entry ≈172.50, stop ≈187, target ≈200, qty ×4.)
+- No exit triggered: neither at/below stop, RS gates pass, thesis + regime (for holdings) intact. Earnings PANW 2026-08-17 / CRWD 2026-08-26 — both far out, no landmine.
+
+### 4. Scan & decision — **NO NEW BUY** (5th disciplined pass today)
+Tape unchanged from Runs 3–4; same bifurcation persists into the final hour:
+- **Semis (falling knives, fail "not extended"):** SMH −4.54% day-3 — AMD/NVDA/AVGO/ANET red; catching a knife.
+- **Green rotation destinations:** META / NOW gapping hard (forbidden chase); MSFT / NFLX / AAPL / GOOGL mid-range with no clean pullback/base/retest yielding R/R ≥ 1.7 + a clear invalidation.
+- 3rd slot must be **non-cyber** (book at max 2 correlated cyber). Only **$73.05 settled** deployable. No setup clears non-extended entry + clear invalidation + R/R ≥ 1.7 + confidence ≥ 6. **Edge absent → NO TRADE.** Entering a hostile rotation tape in the final hour just to fill a slot would violate "don't lower entry quality just to deploy."
+- Full universe RS leaderboard was worked repeatedly across Runs 1–4 today; prices have not moved enough to re-rank. A fresh full RS scan is due at Day 7 open (especially once the deposit settles and sizing scales up).
+
+### 5. Benchmark
+- Strategy (pre-deposit book): $100.00 → **$104.76 = +4.76%** (equity $31.71 + settled cash $73.05; eased from Run 4's $104.96 as both holdings ticked down slightly).
+- QQQ buy-and-hold from baseline: 713.65 → 728.30 = **+2.05%**.
+- **Strategy AHEAD of QQQ by ~2.71 pts.**
+
+**Standing: Day 6 - $104.76 - up 4.76% from baseline (+$400 pending deposit, unsettled, excluded; $400 of the original $800 was pulled before settling).**
