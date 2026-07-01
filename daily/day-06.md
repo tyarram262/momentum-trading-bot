@@ -201,3 +201,42 @@ Tape unchanged from Runs 3–4; same bifurcation persists into the final hour:
 - **Strategy AHEAD of QQQ by ~2.71 pts.**
 
 **Standing: Day 6 - $104.76 - up 4.76% from baseline (+$400 pending deposit, unsettled, excluded; $400 of the original $800 was pulled before settling).**
+
+---
+
+## Run 6 — 19:56 UTC (~15:56 ET, sixth run of day, ~4 min to close)
+
+### 1. State & reconciliation
+- LIVE broker: total value **$504.88**, equity **$31.83**, cash **$473.05** (incl. **$400.00 pending/unsettled**), buying power $473.05. Positions: PANW 0.052115 @ 287.83, CRWD 0.017391 @ 690.01. **0 orders today.** No drift vs state.
+- Deployable **settled** BP = 473.05 − 400.00 pending = **$73.05** (unchanged all day).
+- Deposit UNCHANGED from Run 5: still $400 pending/unsettled. External flow, NOT P&L — excluded from cumulative return. Baseline stays $100 until it settles.
+
+### 2. Regime check
+- SPY 746.17 **−0.08%** | QQQ 725.95 **−1.42%** | XLK 185.78 **−2.49%** | SMH 620.96 **−5.33%** | **VIX 16.37 (CALM)**.
+- Read: **rotation day-3 into the close** — semis crushed hardest of the day (SMH −5.33%), tech soft, but SPY flat and VIX calm = orderly rotation, NOT a risk-off panic. Hostile backdrop for initiating NEW tech-momentum risk; not forced fully defensive (both holdings green).
+
+### 3. Position review (EXIT RULES applied with fresh data)
+**PANW** — last **352.53**, **+22.5%** from 287.82.
+- RS_20 **1.20** ✓ / RS_60 **1.92** ✓ — dominant leader, GREEN on a red tape.
+- Trailing stop **HELD at 332.00**: most recent confirmed higher-low (06-30 low 327.35) sits below 332, so up-only rule keeps 332 (no new confirmed higher-low above the stop yet; re-evaluate on Day 7 confirmed daily bars). Downside-to-stop ≈ **$1.07**, locks in **+$2.30**. Above stop → **HOLD full**.
+
+**CRWD** — last **773.08**, **+12.0%** from 690.01.
+- RS_20 **1.02** (at gate) / RS_60 **1.70** ✓ — leader, GREEN on a red tape.
+- Trailing stop **HELD at 748.00**: confirmed higher-low (06-30 low 732.00) below 748 → held. Downside-to-stop ≈ **$0.44**, locks in **+$1.01**. Above stop → **HOLD full**. (4:1 split effective 7/2 — post-split ÷4 prices, ×4 qty.)
+- No earnings landmine: PANW 2026-08-17, CRWD 2026-08-26 — both far out.
+
+### 4. RS leaderboard
+- Leaderboard dated today (Runs 1–4 worked full universe) → no intraday re-scan. Held cyber leaders still dominate. Non-cyber landscape unchanged: green megacaps extended/gapping (META/NOW chase; MSFT/NFLX/AAPL/GOOGL mid-range, no clean pullback), every non-extended name a red semi failing RS (AMD/NVDA/AVGO/ANET falling knives). No clean non-cyber entry.
+
+### 5. Decision — NO NEW BUY (HOLD ×2)
+- Book at max 2 correlated cyber names (PANW + CRWD) → any 3rd position must be **non-cyber**, and none clears the gates.
+- Green names extended/gapping (forbidden chase); non-extended names all red semis failing RS. No setup with clean invalidation + R/R ≥ 1.7 + confidence ≥ 6.
+- Only **$73.05** settled deployable; remaining $400 unsettled (good-faith rail). Entering ~4 min before the close into a hostile day-3 rotation = forbidden chase.
+- 0/3 daily buys; 2/4 slots; 2 free.
+
+### 6. Benchmark
+- Strategy: $100 → **$104.88** = **+4.88%**.
+- QQQ: 713.65 → 725.95 = **+1.72%**.
+- **AHEAD ~3.16 pts** vs buy-and-hold QQQ over the same window.
+
+**Day 6 — $104.88 — up 4.88% from baseline.**
