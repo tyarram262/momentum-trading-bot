@@ -1,21 +1,54 @@
 {
   "day_number": 6,
   "date": "2026-07-01",
-  "baseline_value": 100.00,
+  "baseline_value": 100.0,
   "current_account_value": 104.88,
   "cumulative_return_pct": 4.88,
   "open_position_count": 2,
   "qqq_baseline": 713.65,
   "qqq_baseline_date": "2026-06-23",
   "buying_power_settled": 73.05,
-  "pending_deposit_unsettled": 400.00,
+  "pending_deposit_unsettled": 400.0,
   "total_portfolio_incl_pending": 504.88,
   "deposit_note": "CAPITAL EVENT Day6 Run5 (2026-07-01 19:11 UTC): pending unsettled deposit shrank $800 -> $400 (~$400 of the original ACH PULLED/REVERSED before settling). External flow, NOT P&L, excluded from cumulative_return_pct. UNCHANGED at Run6 (19:56 UTC): still $400 pending/unsettled, deployable SETTLED buying power still $73.05 (cash 473.05 - pending 400.00 = 73.05). Remaining $400 NOT tradable under cash-account good-faith rail (~T+1). Baseline stays $100 (no re-base until deposit actually settles). ACTION next run: if remaining $400 settles, re-base baseline_value to funded value + reset qqq_baseline to that day's QQQ; if it too is pulled, no change. FLAGGED TO OWNER.",
   "open_positions": [
-    {"ticker": "PANW", "qty": 0.052115, "entry": 287.8199, "cost": 15.00, "stop": 332.00, "target": 360.00, "remaining_fraction": 1.0, "opened": "2026-06-24T14:44Z", "order_id": "6a3bed3b-4089-47ac-997f-c6f8d353c35f", "last": 352.53, "unreal_pct": 22.5, "rs20": 1.20, "rs60": 1.92},
-    {"ticker": "CRWD", "qty": 0.017391, "entry": 690.0099, "cost": 12.00, "stop": 748.00, "target": 800.00, "remaining_fraction": 1.0, "opened": "2026-06-25T14:39Z", "order_id": "6a3d3da1-8e8b-417f-96aa-cd052a879ea2", "last": 773.08, "unreal_pct": 12.0, "rs20": 1.02, "rs60": 1.70, "note": "4:1 split effective 7/2 - post-split divide price figures by 4, multiply qty by 4"}
+    {
+      "ticker": "PANW",
+      "qty": 0.052115,
+      "entry": 287.8199,
+      "cost": 15.0,
+      "stop": 332.0,
+      "target": 360.0,
+      "remaining_fraction": 1.0,
+      "opened": "2026-06-24T14:44Z",
+      "order_id": "6a3bed3b-4089-47ac-997f-c6f8d353c35f",
+      "last": 352.53,
+      "unreal_pct": 22.5,
+      "rs20": 1.2,
+      "rs60": 1.92
+    },
+    {
+      "ticker": "CRWD",
+      "qty": 0.017391,
+      "entry": 690.0099,
+      "cost": 12.0,
+      "stop": 748.0,
+      "target": 800.0,
+      "remaining_fraction": 1.0,
+      "opened": "2026-06-25T14:39Z",
+      "order_id": "6a3d3da1-8e8b-417f-96aa-cd052a879ea2",
+      "last": 773.08,
+      "unreal_pct": 12.0,
+      "rs20": 1.02,
+      "rs60": 1.7,
+      "note": "4:1 split effective 7/2 - post-split divide price figures by 4, multiply qty by 4"
+    }
   ],
-  "rs_leaderboard": {"date": "2026-07-01", "note": "Full universe worked across Day6 Runs 1-4; not re-ranked intraday (prices unchanged). Held cyber leaders dominate: PANW RS_20 1.20/RS_60 1.92, CRWD RS_20 1.02/RS_60 1.70. Non-cyber landscape = green megacaps extended/gapping (META/NOW chase; MSFT/NFLX/AAPL/GOOGL mid-range no pullback), semis crushed day-3 failing RS (SMH -5.33% at close; AMD/NVDA/AVGO/ANET knives). No clean non-cyber entry. REBUILD full RS scan at Day7 open.", "ranked": []},
+  "rs_leaderboard": {
+    "date": "2026-07-01",
+    "note": "Full universe worked across Day6 Runs 1-4; not re-ranked intraday (prices unchanged). Held cyber leaders dominate: PANW RS_20 1.20/RS_60 1.92, CRWD RS_20 1.02/RS_60 1.70. Non-cyber landscape = green megacaps extended/gapping (META/NOW chase; MSFT/NFLX/AAPL/GOOGL mid-range no pullback), semis crushed day-3 failing RS (SMH -5.33% at close; AMD/NVDA/AVGO/ANET knives). No clean non-cyber entry. REBUILD full RS scan at Day7 open.",
+    "ranked": []
+  },
   "last_10_events": [
     "2026-07-01 14:38 UTC - Day 6 Run2 (~10:38 ET). ROTATION day-2, semis crushed harder: SPY -0.02/QQQ -0.96/XLK -1.96/SMH -3.86, VIX 16.29 CALM. HOLD x2, stops HELD 332/748: PANW 352.80 (+22.6%, NEW HH, RS_20 1.21/RS_60 1.92) + CRWD 774.95 (+12.3%). NO buy. Strat +4.93% vs QQQ +2.20% AHEAD ~2.73pts.",
     "2026-07-01 14:52 UTC - Day 6 Run3 (~10:52 ET). *** $800 ACH DEPOSIT LANDED (PENDING/UNSETTLED) *** deployable settled BP still $73.05. ROTATION day-3: SPY -0.01/QQQ -1.08/XLK -2.20/SMH -4.53, VIX 16.39 CALM. HOLD x2, stops HELD 332/748: PANW 356.01 (+23.7%, NEW HH) + CRWD 776.35 (+12.5%). NO buy. Strat +5.11% vs QQQ +2.07% AHEAD ~3.04pts.",
@@ -23,5 +56,7 @@
     "2026-07-01 19:11 UTC - Day 6 Run5 (~15:11 ET). *** CAPITAL EVENT: pending deposit $800 -> $400 (~$400 of ACH pulled before settling; external flow, not P&L) *** deployable settled BP UNCHANGED $73.05. ROTATION day-3 late: SPY +0.10/QQQ -1.10/XLK -2.00/SMH -4.54, VIX 16.27 CALM. HOLD x2, stops HELD 332/748: PANW 351.995 (+22.3%) + CRWD 768.56 (+11.4%). NO buy. Strat +4.76% vs QQQ +2.05% AHEAD ~2.71pts.",
     "2026-07-01 19:56 UTC - Day 6 Run6 (~15:56 ET, ~4 min to CLOSE). Deposit UNCHANGED $400 pending/unsettled; settled BP $73.05. ROTATION day-3 into close, semis crushed hardest: SPY 746.17 -0.08/QQQ 725.95 -1.42/XLK 185.78 -2.49/SMH 620.96 -5.33, VIX 16.37 CALM = orderly not risk-off; hostile for new tech risk. HOLD x2, stops HELD 332/748: PANW 352.53 (+22.5%, RS_20 1.20/RS_60 1.92 dominant leader; downside $1.07 locks +$2.30) + CRWD 773.08 (+12.0%, RS_20 1.02 at-gate/RS_60 1.70; downside $0.44 locks +$1.01). Both cyber GREEN on RED tape = textbook RS. NO buy (6th pass): green extended/gapping (META/NOW chase, MSFT/NFLX/AAPL/GOOGL mid-range no pullback), non-extended all red semis failing RS (AMD/NVDA/AVGO/ANET knives); 3rd slot must be non-cyber; only $73.05 settled deployable; 4-min-to-close entry into hostile rotation = forbidden chase. Earnings PANW 8/17 & CRWD 8/26 far out. Strat +4.88% ($104.88: equity $31.83 + settled $73.05) vs QQQ +1.72% (713.65->725.95) AHEAD ~3.16pts. 0/3 buys; 2/4 slots; 2 free; +$400 pending unsettled."
   ],
-  "notes": "Day 6 Run6 (2026-07-01 19:56 UTC, ~15:56 ET, 6th run of day, ~4 min to close). LIVE reconcile: get_portfolio total_value $504.88, equity $31.83, cash $473.05 (incl pending_deposits $400.00), buying_power $473.05. No drift vs state. DEPOSIT UNCHANGED from Run5: still $400 pending/unsettled (external flow, NOT P&L, excluded from cum-return); deployable SETTLED buying power still $73.05 (473.05 - 400 pending). Baseline stays $100 (no re-base until deposit settles). OPEN: PANW 0.052115 sh @ 287.82 (stop HELD 332, target 360, last 352.53 = +22.5%; higher-low 327.35 < stop so up-only holds 332; RS_20 1.20/RS_60 1.92 = dominant leader; downside-to-stop ~$1.07 locks +$2.30) + CRWD 0.017391 sh @ 690.01 (stop HELD 748, target 800, last 773.08 = +12.0%; higher-low 732.00 < stop; RS_20 1.02 at-gate/RS_60 1.70; downside ~$0.44 locks +$1.01; 4:1 split 7/2 - post-split /4 prices, x4 qty). Both cyber leaders GREEN on RED tech tape = textbook RS = HOLD full. REGIME: rotation day-3 into close - SPY 746.17 -0.08% (flat), QQQ 725.95 -1.42%, XLK 185.78 -2.49%, SMH 620.96 -5.33% (semis crushed hardest into close), VIX 16.37 CALM = orderly rotation not risk-off; hostile tape for NEW tech-momentum risk; not forced fully defensive (holdings green) but no supportive backdrop to initiate. NO new buy (disciplined 6th pass, tape unchanged): green names extended/gapping (META/NOW forbidden chase, MSFT/NFLX/AAPL/GOOGL mid-range no clean pullback + no 1.7:1 invalidation), every non-extended name a red semi failing RS (AMD/NVDA/AVGO/ANET knives); 3rd slot must be non-cyber (book at max 2 correlated cyber); only $73.05 settled deployable; 4-min-to-close entry into hostile rotation = forbidden chase. Earnings PANW 2026-08-17, CRWD 2026-08-26 far out. QQQ baseline 713.65 -> 725.95 = +1.72%; strategy $100 -> $104.88 = +4.88%, AHEAD ~3.16pts. 0/3 daily buys; 2/4 slots; 2 free; $73.05 settled BP; +$400 pending unsettled. NEXT RUN: rebuild full RS leaderboard at Day7 open; re-base baseline if remaining deposit settles; ratchet stops on confirmed daily higher-lows."
+  "notes": "Day 6 Run6 (2026-07-01 19:56 UTC, ~15:56 ET, 6th run of day, ~4 min to close). LIVE reconcile: get_portfolio total_value $504.88, equity $31.83, cash $473.05 (incl pending_deposits $400.00), buying_power $473.05. No drift vs state. DEPOSIT UNCHANGED from Run5: still $400 pending/unsettled (external flow, NOT P&L, excluded from cum-return); deployable SETTLED buying power still $73.05 (473.05 - 400 pending). Baseline stays $100 (no re-base until deposit settles). OPEN: PANW 0.052115 sh @ 287.82 (stop HELD 332, target 360, last 352.53 = +22.5%; higher-low 327.35 < stop so up-only holds 332; RS_20 1.20/RS_60 1.92 = dominant leader; downside-to-stop ~$1.07 locks +$2.30) + CRWD 0.017391 sh @ 690.01 (stop HELD 748, target 800, last 773.08 = +12.0%; higher-low 732.00 < stop; RS_20 1.02 at-gate/RS_60 1.70; downside ~$0.44 locks +$1.01; 4:1 split 7/2 - post-split /4 prices, x4 qty). Both cyber leaders GREEN on RED tech tape = textbook RS = HOLD full. REGIME: rotation day-3 into close - SPY 746.17 -0.08% (flat), QQQ 725.95 -1.42%, XLK 185.78 -2.49%, SMH 620.96 -5.33% (semis crushed hardest into close), VIX 16.37 CALM = orderly rotation not risk-off; hostile tape for NEW tech-momentum risk; not forced fully defensive (holdings green) but no supportive backdrop to initiate. NO new buy (disciplined 6th pass, tape unchanged): green names extended/gapping (META/NOW forbidden chase, MSFT/NFLX/AAPL/GOOGL mid-range no clean pullback + no 1.7:1 invalidation), every non-extended name a red semi failing RS (AMD/NVDA/AVGO/ANET knives); 3rd slot must be non-cyber (book at max 2 correlated cyber); only $73.05 settled deployable; 4-min-to-close entry into hostile rotation = forbidden chase. Earnings PANW 2026-08-17, CRWD 2026-08-26 far out. QQQ baseline 713.65 -> 725.95 = +1.72%; strategy $100 -> $104.88 = +4.88%, AHEAD ~3.16pts. 0/3 daily buys; 2/4 slots; 2 free; $73.05 settled BP; +$400 pending unsettled. NEXT RUN: rebuild full RS leaderboard at Day7 open; re-base baseline if remaining deposit settles; ratchet stops on confirmed daily higher-lows.",
+  "run_in_progress": true,
+  "run_timestamp": "2026-07-01T20:06:46Z"
 }
