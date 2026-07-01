@@ -132,3 +132,35 @@ Disciplined pass (3rd today), not a reflex — scanned broadly, recomputed RS, c
 - **Strategy AHEAD of QQQ by ~3.04 pts** (widened as QQQ fell -1.08% while both cyber holdings held green).
 
 **Standing: Day 6 - $105.11 - up 5.11% from baseline (+$800 pending deposit, unsettled, excluded).**
+
+---
+
+## Run 4 — ~10:57 ET (14:57 UTC) — HOLD ×2, NO NEW BUY
+
+*(Fired ~4 minutes after Run 3 — tape essentially unchanged; disciplined re-confirmation.)*
+
+### 1–2. State + live reconcile
+Broker: PANW 0.052115 @ 287.83, CRWD 0.017391 @ 690.01. Portfolio total $904.96, equity $31.91, cash $873.05 (incl **$800 pending/unsettled**), buying_power $873.05. **Deployable settled BP = $73.05** (deposit not tradable under good-faith rail, not a return). No open orders today. State reconciles.
+
+### 3. Regime
+- SPY 746.83 (**+0.01%**, flat) · QQQ 727.96 (**−1.15%**) · XLK 186.27 (**−2.23%**) · SMH 625.98 (**−4.56%**) · VIX **16.39** (calm).
+- Rotation day-3 continues: broad market flat, tech/semis breaking down harder. Orderly (VIX calm) but genuinely **hostile tape for NEW tech-momentum risk**. Not forced fully defensive (holdings green), but no supportive backdrop to initiate.
+
+### 4. Position review (exit rules + ratchet)
+- **PANW** 354.67 (+23.2%). RS_20 = (354.67/297.18)/(746.83/759.57) = **1.21**; RS_60 = (354.67/161.95)/(746.83/658.93) = **1.93**. Dominant leader, green on red tape, thesis intact → **HOLD full**. Stop **HELD 332** (most recent confirmed higher-low 327.35 < stop; no new confirmed higher-low above 332 yet; up-only). Downside ≈ $1.18, locks +$2.30.
+- **CRWD** 771.78 (+11.8%). RS_20 = (771.78/768.95)/(746.83/759.57) = **1.02** (flattening but still > gate); RS_60 = (771.78/398.61)/1.1334 = **1.71**. Thesis intact → **HOLD full**. Stop **HELD 748** (higher-low 732.00 < stop). Downside ≈ $0.41, locks +$1.01. 4:1 split effective 7/2.
+- No exits triggered — neither at/below stop, RS gates pass, thesis and regime (for holdings) intact.
+
+### 5. Scan & decision — **NO NEW BUY**
+Tape identical to Run 3 (4 min prior). Same bifurcation:
+- **Semis (falling knives, fail "not extended"):** AMD, NVDA, AVGO, ANET all red day-3 — catching a knife.
+- **Green rotation destinations:** META / NOW gapping hard (forbidden chase); MSFT / NFLX / AAPL / GOOGL mid-range, no clean pullback/base/retest yielding R/R ≥ 1.7 with a clear invalidation.
+- 3rd slot must be **non-cyber** (book at max 2 correlated cyber). Only **$73.05 settled** deployable ($800 deposit unsettled). No setup clears non-extended entry + clear invalidation + R/R ≥ 1.7 + conf ≥ 6. **Edge absent → NO TRADE.**
+- Earnings check: PANW 2026-08-17, CRWD 2026-08-26 — both far out; no proximity gate issue for any candidate.
+
+### 6. Benchmark
+- Strategy (pre-deposit book): $100.00 → **$104.96 = +4.96%** (equity $31.91 + settled cash $73.05; eased from Run 3's $105.11 as both holdings ticked down intraday).
+- QQQ buy-and-hold from baseline: 713.65 → 727.96 = **+2.01%**.
+- **Strategy AHEAD of QQQ by ~2.95 pts.**
+
+**Standing: Day 6 - $104.96 - up 4.96% from baseline (+$800 pending deposit, unsettled, excluded).**
